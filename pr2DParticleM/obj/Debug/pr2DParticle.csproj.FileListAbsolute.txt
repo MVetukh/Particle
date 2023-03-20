@@ -1,0 +1,12 @@
+C:\Users\Михаил\Desktop\pr2DParticle\obj\Debug\pr2DParticle.csproj.AssemblyReference.cache
+C:\Users\Михаил\Desktop\pr2DParticle\obj\Debug\pr2DParticle.csproj.SuggestedBindingRedirects.cache
+C:\Users\Михаил\Desktop\pr2DParticle\obj\Debug\nsParticleMotion.helpForm.resources
+C:\Users\Михаил\Desktop\pr2DParticle\obj\Debug\nsParticleMotion.mainForm.resources
+C:\Users\Михаил\Desktop\pr2DParticle\obj\Debug\nsParticleMotion.Properties.Resources.resources
+C:\Users\Михаил\Desktop\pr2DParticle\obj\Debug\pr2DParticle.csproj.GenerateResource.cache
+C:\Users\Михаил\Desktop\pr2DParticle\obj\Debug\pr2DParticle.csproj.CoreCompileInputs.cache
+C:\Users\Михаил\Desktop\pr2DParticle\bin\Debug\wParticleMotion.exe
+C:\Users\Михаил\Desktop\pr2DParticle\bin\Debug\wParticleMotion.pdb
+C:\Users\Михаил\Desktop\pr2DParticle\obj\Debug\pr2DParticle.csproj.CopyComplete
+C:\Users\Михаил\Desktop\pr2DParticle\obj\Debug\wParticleMotion.exe
+C:\Users\Михаил\Desktop\pr2DParticle\obj\Debug\wParticleMotion.pdb

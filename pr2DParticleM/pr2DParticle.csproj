@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Михаил\Desktop\wParticleMotion.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CC2B6CF8-3B58-4B8A-A1A7-C0867CD7ADA3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>wParticleMotion</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="TeeChart.Lite, Version=2.0.2434.31487, Culture=neutral, PublicKeyToken=7e100bb1c9aeab43, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\TeeChart.Lite.DLL</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="nsParticleMotion\mainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nsParticleMotion\helpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nsParticleMotion\prParticleMotion.cs" />
+    <Compile Include="nsParticleMotion\Properties\Resources.cs" />
+    <Compile Include="nsParticleMotion\Properties\Settings.cs" />
+    <Compile Include="GL\listMaker.cs" />
+    <Compile Include="GL\gl.cs" />
+    <Compile Include="GL\glPort.cs" />
+    <Compile Include="Integrators\CallBackEventArgs.cs" />
+    <Compile Include="Integrators\CallBackEventHandler.cs" />
+    <Compile Include="Integrators\TEquations.cs" />
+    <Compile Include="Integrators\IIntegrator.cs" />
+    <Compile Include="Integrators\LWDoPri5.cs" />
+    <Compile Include="Integrators\RK4.cs" />
+    <Compile Include="Integrators\TIntegrator.cs" />
+    <Compile Include="Integrators\MechSystems\QP.cs" />
+    <Compile Include="Integrators\MechSystems\Propagator.cs" />
+    <Compile Include="Integrators\MechSystems\IMechSystem.cs" />
+    <Compile Include="Integrators\MechSystems\SimpleEventHandler.cs" />
+    <Compile Include="Integrators\MechSystems\MechSystem.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="nsParticleMotion\helpForm.resx" />
+    <EmbeddedResource Include="nsParticleMotion\mainForm.resx" />
+    <EmbeddedResource Include="nsParticleMotion\Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".editorconfig" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

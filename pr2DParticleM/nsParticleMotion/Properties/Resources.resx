@@ -1,0 +1,3896 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ParticleMotion" xml:space="preserve">
+    <value>
+Приложение иллюстрирует в реальном времени движение точечной частицы в плоском потенциальном поле.
+Поле задано на всей плоскости некоторым потенциалом в общем случае зависящим от времени.
+Потенциал поля отображается в центральном окне оттенкками серого. Чем ниже потенциал, тем темнее точки.
+Масштабы изображения регулируются колесиком мышки при нажатой клавиши Ctrl. 
+Положение физического окна относительно изображения регулируются перемещением мышки при нажатой клавиши Ctrl и
+левой кнопки мышки.
+Точка изображается небольшой желтой окружностью. Ее масса равна единице.
+На верхней панели есть окно, в котором можно задавать частоту изменения потенциала со временем (параметр nu).
+Если частота колебаний поля нулю не равна, можно менять время колесиком мышки над плоскостью изображения.
+Задание начальных условий движения.
+1  Начальное положение частицы задается щелчком правой кнопки мышки в выбранной точке плоскости. При этом скорость
+автоматически обнуляется.
+2. Модуль скорости частицы задается через контекстное меню.
+3. Если модуль скорости отличен от нуля, на частице появляется радиальный красный луч, 
+   указывающий текущий выбор направления скорости. Изменение направления скорости производится колесиком мышки,
+   когда указатель мышки находится над частицей. 
+Движение активируется кнопкой Start. Эта же кнопка (Stop) останаливает частицу (скорость обнуляется).
+Кнопка Break приостанавливает движение, не меняя скорость и положение частицы (стоп-кадр). 
+Она же (Go On) активирует продолжение движения.
+Кнопка Tracing позволяет установить или отказаться от режима воспроизведения следа траектории частицы.
+Кнопка Refresh стирает изображения следа траектории.
+Координаты точки в плоскости реального мира, отвечающие положению курсора, указываются в строке статуса.
+Там же указывается текущая скорость частицы и ее полная энергия.
+
+Как создавалось приложение
+
+1. Создан контейнер (Solution) с именем solParticleMotion в каталоге VisualStudio2008\Projects.
+2. В него добавлено оконное приложение с именем wParticleMotion (команда Add контекстного меню в окне Solution Explorer).
+3. Файл Program переименован в prParticleMotion (команда Rename контекстного меню в окне Solution Explorer).
+4. Пространство имен (namespace) переименовано в nsParticleMotion (команда Rename в меню Refactor).  
+5. Файл Form1 переименован в mainForm (команда Rename контекстного меню в окне Solution Explorer).
+6. Изменены два свойства формы (окно Properties): Text на Particle Motion и Start Position на CenterScreen.
+7. Из окна Toolbox (раздел Menus &amp; Toolbars) на форму перенесена компонента класса ToolStripContainer.
+8. Свойство Dock появившегося объекта toolStripContainer1 установлено в Fill. В этом случае контейнер будет всегда заполнять полностью клиентскую область окна. Контейнер состоит из 5 панелей - две боковые для размещения элементов управления, одна верхняя для размещения главного меню, одна нижняя для размещения элементов строки статуса, и одна центральная (Content) для размещения панелей, отображающих движение частицы.На центральную панель из окна Toolbox (раздел Common Controls) поместили компоненту класса PictureBox. 
+9. У Content-панели в окне Properties (панель Events - иконка, изображающая молнию) выбрали событие Resize и заполнили ее кодом, приведенным ниже (метод toolStripContainer1_ContentPanel_Resize). Обработчик Resize этой панели будет вызываться всегда, когда изменяются размеры формы. 
+Конструктор формы (метод mainForm) и обработчик toolStripContainer1_ContentPanel_Resize помещаются в раздел Ctr &amp; Resize Event Handler.
+        /// &lt;summary&gt;
+        /// Устанавливает размеры и положение pictureBox
+        /// &lt;/summary&gt;
+        void ResetPanelsSize()
+        {
+            // Определяются высота и ширина панели, которой принадлежит pictureBox1.
+            // Минимальная из этих величин является стороной квадрата.
+            int h = toolStripContainer1.ContentPanel.ClientSize.Height,
+                w = toolStripContainer1.ContentPanel.ClientSize.Width,
+                side = Math.Min(h,w);
+            // Границы pictureBox являются квадратом с центром в центре панели и стороной side
+            pictureBox1.Bounds = new Rectangle(new Point((w - side) / 2, (h - side) / 2), new Size(side, side));
+        }
+        /// &lt;summary&gt;
+        /// Выполняет действия при изменении размеров центральной панели (ContentPanel) контейнера toolStripContainer.
+        /// &lt;/summary&gt;
+        /// &lt;param name="sender"&gt;
+        /// Объект, содержащий событие изменения размеров и посылающий сообщение о его наступлении
+        /// &lt;/param&gt;
+        /// &lt;param name="e"&gt;
+        /// Объект класса для переноса информации о событии. 
+        /// В данном событии используется базовый класс EventArgs, который не содержит данных о событии. 
+        /// &lt;/param&gt;
+        private void toolStripContainer1_ContentPanel_Resize(object sender, EventArgs e)
+        {
+            ResetPanelsSize();
+        }
+ В конце тела конструктора вызывается метод 
+            // Устанавливает размеры панелей на панели контента
+            ResetPanelsSize();
+10. Для работы с двумерными векторами (положение, скорость, сила) создается структура Vector2D. Описание ее помещается
+внутрь класса mainForm.
+        /// &lt;summary&gt;
+        /// Описывает алгебру вектора на плоскости
+        /// &lt;/summary&gt;
+        struct Vector2D
+        {
+            // Поля структуры 
+            // Декартовые компоненты вектора _x и _y
+            double _x, _y;
+            // Модуль и угол (полярные компоненты вектора)
+            double _mod, _azimuth;
+            // Свойства структуры, отвечающие ее полям
+            /// &lt;summary&gt;
+            /// Устанавливает значение x-компоненты вектора и вычисляет его модуль и направление.
+            /// Возвращает x-компоненту вектора
+            /// &lt;/summary&gt;
+            internal double X
+            {
+                set
+                {
+                    _x = value;
+                    _mod = Math.Sqrt(this * this); _azimuth = Math.Atan2(_y, _x);
+                }
+                // Метод get возвращает значение поля _x
+                get { return _x; }
+            }
+            /// &lt;summary&gt;
+            /// Устанавливает значение y-компоненты вектора и вычисляет его модуль и направление.
+            /// Возвращает y-компоненту вектора
+            /// &lt;/summary&gt;
+            internal double Y
+            {
+                set
+                {
+                    _y = value;
+                    _mod = Math.Sqrt(this * this); _azimuth = Math.Atan2(_y, _x);
+                }
+                get { return _y; }
+            }
+            /// &lt;summary&gt;
+            /// Устанавливает направление вектора и вычисляет его компоненты.
+            /// Возвращает направление вектора.
+            /// &lt;/summary&gt;
+            internal double Azimuth
+            {
+                set
+                {
+                    _azimuth = value;
+                    _y = _mod * Math.Sin(_azimuth);
+                    _x = _mod * Math.Cos(_azimuth);
+                }
+                get { return _azimuth; }
+            }
+            /// &lt;summary&gt;
+            /// Устанавливает модуль (длину) вектора и вычисляет его компоненты.
+            /// Возвращает модуль (длину) вектора.
+            /// &lt;/summary&gt;
+            internal double Mod
+            {
+                set
+                {
+                    _mod = value;
+                    _y = _mod * Math.Sin(_azimuth);
+                    _x = _mod * Math.Cos(_azimuth);
+                }
+                get { return _mod; }
+            }
+
+            // Конструкторы структуры
+            /// &lt;summary&gt;
+            /// Создает экземпляр структуры с заданными декартовыми координатами x и y
+            /// &lt;/summary&gt;
+            /// &lt;param name="x"&gt;
+            /// x-координата
+            /// &lt;/param&gt;
+            /// &lt;param name="y"&gt;
+            /// y-координата
+            /// &lt;/param&gt;
+            internal Vector2D(double x, double y)
+            {
+                _x = x;
+                _y = y;
+                _mod = Math.Sqrt(_x * _x + _y * _y);
+                _azimuth = Math.Atan2(_y, _x);
+            }
+            /// &lt;summary&gt;
+            /// Создает экземпляр структуры по заданному объекту типа SizeF
+            /// &lt;/summary&gt;
+            /// &lt;param name="size"&gt;
+            /// Объект структуры SizeF
+            /// &lt;/param&gt;
+            internal Vector2D(SizeF size)
+                // Здесь вызывается конструктор с параметрами x, y
+                : this(size.Width, size.Height)
+            {
+            }
+
+            // Операторы структры
+            /// &lt;summary&gt;
+            /// Оператор явного преобразования структуры типа Vector2D в структуру типа SizeF
+            /// &lt;/summary&gt;
+            /// &lt;param name="vector"&gt;
+            /// Данный вектор
+            /// &lt;/param&gt;
+            /// &lt;returns&gt;
+            /// Объект типа SizeF с теми же значениями x и y
+            /// &lt;/returns&gt;
+            public static explicit operator SizeF(Vector2D vector)
+            {
+                return new SizeF((float)vector.X, (float)vector.Y);
+            }
+            /// &lt;summary&gt;
+            /// Унарный оператор изменения направления вектора на обратное
+            /// &lt;/summary&gt;
+            /// &lt;param name="vector"&gt;
+            /// Данный вектор
+            /// &lt;/param&gt;
+            /// &lt;returns&gt;
+            /// Вектор, направленный в противоположную сторону
+            /// &lt;/returns&gt;
+            public static Vector2D operator -(Vector2D vector)
+            {
+                return new Vector2D(-vector.X, -vector.Y);
+            }
+            /// &lt;summary&gt;
+            /// Оператор вычитания двух векторов
+            /// &lt;/summary&gt;
+            /// &lt;param name="v1"&gt;
+            /// Исходный вектор
+            /// &lt;/param&gt;
+            /// &lt;param name="v2"&gt;
+            /// Вычитаемый вектор
+            /// &lt;/param&gt;
+            /// &lt;returns&gt;
+            /// Результирующий вектор
+            /// &lt;/returns&gt;
+            public static Vector2D operator -(Vector2D v1, Vector2D v2)
+            {
+                return v1 + (-v2);
+            }
+            /// &lt;summary&gt;
+            /// Оператор сложения двух объектов структуры (двух векторов)
+            /// &lt;/summary&gt;
+            /// &lt;param name="v1"&gt;
+            /// Первое слагаемое
+            /// &lt;/param&gt;
+            /// &lt;param name="v2"&gt;
+            /// Второе слагаеиое
+            /// &lt;/param&gt;
+            /// &lt;returns&gt;
+            /// Результирующий вектор
+            /// &lt;/returns&gt;
+            public static Vector2D operator +(Vector2D v1, Vector2D v2)
+            {
+                return new Vector2D(v1.X + v2.X, v1.Y + v2.Y);
+            }
+            /// &lt;summary&gt;
+            /// Оператор умножения вектора на число
+            /// &lt;/summary&gt;
+            /// &lt;param name="a"&gt;
+            /// Число - множитель
+            /// &lt;/param&gt;
+            /// &lt;param name="v"&gt;
+            /// Вектор - множитель
+            /// &lt;/param&gt;
+            /// &lt;returns&gt;
+            /// Вектор - результат
+            /// &lt;/returns&gt;
+            public static Vector2D operator *(double a, Vector2D v)
+            {
+                return new Vector2D(v.X * a, v.Y * a);
+            }
+            /// &lt;summary&gt;
+            /// Оператор умножения вектора на скаляр справа
+            /// &lt;/summary&gt;
+            /// &lt;param name="v"&gt;&lt;/param&gt;
+            /// &lt;param name="a"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public static Vector2D operator *(Vector2D v, double a)
+            {
+                return a * v;
+            }
+            /// &lt;summary&gt;
+            /// Оператор деления вектора на скаляр
+            /// &lt;/summary&gt;
+            /// &lt;param name="v"&gt;&lt;/param&gt;
+            /// &lt;param name="a"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public static Vector2D operator /(Vector2D v, double a)
+            {
+                return v * (1.0 / a);
+            }
+            /// &lt;summary&gt;
+            /// Оператор скалярного умножения векторов
+            /// &lt;/summary&gt;
+            /// &lt;param name="v1"&gt;
+            /// Первый множитель
+            /// &lt;/param&gt;
+            /// &lt;param name="v2"&gt;
+            /// Второй множитель
+            /// &lt;/param&gt;
+            /// &lt;returns&gt;
+            /// Результат скалярного произведения 
+            /// &lt;/returns&gt;
+            public static double operator *(Vector2D v1, Vector2D v2)
+            {
+                return v1.X * v2.X + v1.Y * v2.Y;
+            }
+        }
+
+
+11. Вводятся поля, описывающие частицу, поле, в котором она движется, и их графические характеристики.
+        #region Particle parameters
+        /// &lt;summary&gt;
+        /// Хранит радиус частицы в пикселях
+        /// &lt;/summary&gt;
+        const int _pRadius = 10;
+        /// &lt;summary&gt;
+        /// Хранит центральный цвет частицы
+        /// &lt;/summary&gt;
+        Color _pStartColor = Color.Yellow;
+        /// &lt;summary&gt;
+        /// Хранит цвет изображения внешнего контура частицы
+        /// &lt;/summary&gt;
+        Color[] _pEndColors = { Color.Black };
+        /// &lt;summary&gt;
+        /// Хранит прямоугольник изображения частицы в пикселях
+        /// &lt;/summary&gt;
+        Rectangle _pRect = new Rectangle(new Point(), new Size(2 * _pRadius, 2 * _pRadius));
+        /// &lt;summary&gt;
+        /// Хранит вектор левого верхнего угла прямоугольника частицы по отношению к ее центру в пикселях
+        /// &lt;/summary&gt;
+        Size _ltOffset = new Size(-_pRadius, -_pRadius);
+        /// &lt;summary&gt;
+        /// Хранит текущее положение частицы в физических координатах
+        /// &lt;/summary&gt;
+        Vector2D _Pos = new Vector2D(.5, .5);
+        /// &lt;summary&gt;
+        /// Хранит текущую скорость частицы
+        /// &lt;/summary&gt;
+        Vector2D _V = new Vector2D();
+        /// &lt;summary&gt;
+        /// Хранит текущее положение частицы в пикселях
+        /// &lt;/summary&gt;
+        Point curPPos;
+        #endregion
+        #region Field parameters // Параметры силового поля
+        /// &lt;summary&gt;
+        /// Хранит текущее время
+        /// &lt;/summary&gt;
+        double _time;
+        /// &lt;summary&gt;
+        /// Хранит константу взаимодействия
+        /// &lt;/summary&gt;
+        const double _intConst = .003;
+        /// &lt;summary&gt;
+        /// Хранит граничные значения энергии
+        /// &lt;/summary&gt;
+        double _eMin = -_intConst, _eMax = _intConst;
+        /// &lt;summary&gt;
+        /// Хранит частоту колебаний поля
+        /// &lt;/summary&gt;
+        double _nu;
+        /// &lt;summary&gt;
+        /// Хранит коэффициент прозрачности изображения градиентного фона
+        /// &lt;/summary&gt;
+        int _alphaBlend = 240;
+        /// &lt;summary&gt;
+        /// Хранит начальный цвет градиентного фона
+        /// &lt;/summary&gt;
+        Color _startColorGrad = Color.Black;
+        /// &lt;summary&gt;
+        /// Хранит конечный цвет градиентного фона
+        /// &lt;/summary&gt;
+        Color _endColorGrad = Color.White;
+        /// &lt;summary&gt;
+        /// Хранит текущее окно изображения области изменения потенциала в физических координатах
+        /// &lt;/summary&gt;
+        RectangleF _window = new RectangleF(0, 0, 1, 1);
+        #endregion
+12. Методы, задающие потенциальную энергию, силу, полную энергию помещаются в раздел Mech System Methods
+        #region Mech System Methods
+        /// &lt;summary&gt;
+        /// Вычисляет потенциальную энергию частицы
+        /// &lt;/summary&gt;
+        /// &lt;param name="pos"&gt;
+        /// Точка, в которой вычисляется потенциальная энергия частицы
+        /// &lt;/param&gt;
+        /// &lt;param name="time"&gt;
+        /// Момент времени
+        /// &lt;/param&gt;
+        /// &lt;returns&gt;
+        /// Значение потенциальной энергии
+        /// &lt;/returns&gt;
+        double PotentialEnergy(Vector2D pos, double time)
+        {
+            return _intConst * Math.Sin(2 * Math.PI * (pos.X - _nu * time)) *
+                Math.Cos(2 * Math.PI * (pos.Y - _nu * time));
+        }
+        /// &lt;summary&gt;
+        /// Вычисляет полную энергию частицы
+        /// &lt;/summary&gt;
+        /// &lt;param name="velocity"&gt;
+        /// Скорость
+        /// &lt;/param&gt;
+        /// &lt;param name="pos"&gt;
+        /// Положение
+        /// &lt;/param&gt;
+        /// &lt;param name="time"&gt;
+        /// Время
+        /// &lt;/param&gt;
+        /// &lt;returns&gt;
+        /// Полная энергия
+        /// &lt;/returns&gt;
+        double Energy(Vector2D velocity, Vector2D pos, double time)
+        {
+            return .5 * velocity * velocity + PotentialEnergy(pos, time);
+        }
+        /// &lt;summary&gt;
+        /// Вычисляет силу
+        /// &lt;/summary&gt;
+        /// &lt;param name="pos"&gt;
+        /// Точка, в которой вычисляется сила
+        /// &lt;/param&gt;
+        /// &lt;param name="time"&gt;
+        /// Момент времени
+        /// &lt;/param&gt;
+        /// &lt;returns&gt;
+        /// Вектор силы
+        /// &lt;/returns&gt;
+        Vector2D Force(Vector2D pos, double time)
+        {
+            double _2PI = 2 * Math.PI,
+                c = _2PI * _intConst,
+                xPhase = _2PI * (pos.X - _nu * time),
+                yPhase = _2PI * (pos.Y - _nu * time);
+            return 
+                c * new Vector2D(-Math.Cos(xPhase) * Math.Cos(yPhase), Math.Sin(xPhase) * Math.Sin(yPhase));
+        }
+        #endregion
+13. В объекте pictureBox1 заполнили кодом обработчик события Resize (метод pictureBox1_Resize). Этот обработчик Resize вызывается всегда, когда изменяются размеры объекта pictureBox1. Последние меняются в обработчике toolStripContainer1_ContentPanel_Resize так, чтобы pictureBox1 имел форму максимального квадрата, вписываемого в Content-панель и расположенного в ее центре. В обработчике pictureBox1_Resize запоминаются текущие размеры клиентской области pictureBox1 и содержимое pictureBox1 воспроизводится методом Refresh.
+        /// &lt;summary&gt;
+        /// Хранит ширину (высоту) клиентской области pictureBox
+        /// &lt;/summary&gt;
+        int _pbWidth, _pbHeight;
+        private void pictureBox1_Resize(object sender, EventArgs e)
+        {
+            // Сохраняются высота и ширина прямоугольника pictureBox
+            _pbHeight = pictureBox1.ClientSize.Height;
+            _pbWidth = pictureBox1.ClientSize.Width;
+            // Текущее положение частицы в пикселях
+            curPPos = Point.Round(new PointF(
+                    ((float)_Pos.X - _window.Left) / _window.Width * _pbWidth,
+                    ((float)_Pos.Y - _window.Top) / _window.Height * _pbHeight));
+            // Определяется верхний левый угол прямоугольника частицы
+            _pRect.Location = curPPos + _ltOffset;
+            // Изображение обновляется
+            pictureBox1.Refresh();
+        }
+
+14. Через окно Properties (панель Events) определен обработчик pictureBox1_Paint. В него помещен код, изображающий поле, частицу и направление скорости 
+        private void pictureBox1_Paint(object sender, PaintEventArgs e)
+        {
+            #region Hatch Background
+            using (HatchBrush hb = new HatchBrush(HatchStyle.Cross, Color.White))
+                e.Graphics.FillRectangle(hb, pictureBox1.ClientRectangle);
+            #endregion
+            #region Gradient Background
+            // Создается объект градиентного фона (объект класса Blend) с заданным числом "положений" и "факторов",
+            // равным числу пикселей по высоте прямоугольника _pbHeight (высота клиентской области pictureBox1).
+            Blend bckgrBlend = new Blend(_pbHeight);
+
+            // Определяется массив "положении" пикселей в вертикальном направлении сверху вниз 
+            // в в отношении к полной высоте.
+            float[] pstns = new float[_pbHeight];
+            for (int row = 0; row &lt; _pbHeight; row++)
+                pstns[row] = (float)row / (_pbHeight - 1);
+            // Свойству Positions объекта bkgrBlend передается ссылка на массив положений
+            bckgrBlend.Positions = pstns;
+            // Массив "факторов" градиентного фона будет использоваться для определения
+            // количественного состава цвета пикселя в данном положении
+            float[] fctrs = new float[_pbHeight];
+            // Хранит текущие положения точек-пикселей в относительных координатах
+            Vector2D curPos = new Vector2D();
+            // Хранит текущее значение потенциала
+            double curU;
+            // Хранит текущую вертикальную полосу шириной в один пиксель, покрываемой градиентной кистью 
+            Rectangle blndRect = new Rectangle(0, 0, 1, _pbHeight);
+            // Цикл, пробегающий горизонтальные координаты всех пикселей слева направо.
+            for (int column = 0; column &lt; _pbWidth; column++)
+            {
+                // Вычисляется текущая горизонтальная координата полоски
+                curPos.X = _window.Left + _window.Width * column / _pbWidth;
+                // Определяются факторы для каждой вертикальной полоски в зависимости от координаты y
+                // по значениям функции потенциала U(x,y).
+                // Эти факторы равномерно модулируют цвет фона от стартового значения цвета
+                // при низких энергиях до конечного цвета при высоких энергиях.
+                // Таким образом создается образ "потенциального рельефа".
+                for (int row = 0; row &lt; _pbHeight; row++)
+                {
+                    // Определяется текущая вертикальная координата
+                    curPos.Y = _window.Top + _window.Height * pstns[row];
+                    // Вычисляется значение потенциала в точке curPos в момент времени _time
+                    curU = PotentialEnergy(curPos, _time);
+                    // Если потенциал не ограничен, то в изображении ограничиваем
+                    // его значениями (_eMin; _eMax)
+                    fctrs[row] = curU &gt; _eMax ? 1 : curU &lt; _eMin ? 0 :
+                        (float)((curU - _eMin) / (_eMax - _eMin));
+                }
+                // Найденные факторы смешивания передаются свойству объекта смешивания bkgrBlend
+                bckgrBlend.Factors = fctrs;
+
+                // Создается и используется экземпляр объекта кисти с линейным
+                // градиентом цвета. Указываются стартовый и конечный цвета, а также 
+                // _alphaBlend-компонента прозрачности для смешивания с уже существующим фоном.
+                using (LinearGradientBrush blndBrush = new LinearGradientBrush(
+                    blndRect, // Текущий закрашиваемый вертикальный пр-к шириной в один пиксель
+                    Color.FromArgb(_alphaBlend, _startColorGrad),// Цвет самой низкой энергии
+                    Color.FromArgb(_alphaBlend, _endColorGrad),  // Цвет самой высокой энергии
+                    LinearGradientMode.Vertical // Режим смешивания вертикальный
+                    ))
+                {
+                    // Свойству Blend кисти присваивается ссылка на объект bckgrBlend.
+                    blndBrush.Blend = bckgrBlend;
+                    // Отрисовка прямоугольника
+                    e.Graphics.FillRectangle(blndBrush, blndRect);
+                }
+                // Прямоугольник, в котором изображается градиентный фон, сдвигается на единицу вправо
+                // на каждом шаге цикла по горизонтальным колонкам.
+                blndRect.Offset(1, 0);
+            }
+            #endregion
+            #region Particle State Painting
+            // Частица изображается контурной кистью.
+            // Для этого создается объект класса GraphicsPath - графический контур
+            using (GraphicsPath path = new GraphicsPath())
+            {
+                // К контуру добавляется эллипс, изображающий частицу
+                path.AddEllipse(_pRect);
+                // Определяется градиентная контурная кисть
+                using (PathGradientBrush pthGrBrush = new PathGradientBrush(path))
+                {
+                   // Задаются начальный и конечный цвета кисти
+                   pthGrBrush.CenterColor = _pStartColor;
+                   pthGrBrush.SurroundColors = _pEndColors;
+                   // Кистью заполняется контур, состоящий из одного эллипса
+                   e.Graphics.FillPath(pthGrBrush, path);
+                }
+             }
+                // Изображение вектора скорости
+                if (_V.Mod != 0)
+                    using (Pen pen = new Pen(Color.Red))
+                    {
+                        pen.EndCap = LineCap.ArrowAnchor;
+                        e.Graphics.DrawLine(pen, curPPos,
+                            curPPos + Size.Round(new SizeF(
+                                (_pRadius - .5f) * (float)(_V.X / _V.Mod), 
+                                (_pRadius - .5f) * (float)(_V.Y / _V.Mod))));
+                    }
+
+            #endregion
+        }
+Раздел кода, содержащий обработчики pictureBox1_Resize и pictureBox1_Paint обозначен Picture Box Resize &amp; Paint Event Handlers.
+
+
+На этой стадии должно быть видно поле и частица в центре.
+
+15. Из окна Toolbox (раздел Menus &amp; Toolbars) на нижнюю панель контейнера добавлена компонента StatusStrip. В ее свойство Items добавлены две метки - компоненты класса StatusLabel. Эти компоненты названы stLabelXY и stLabelP. Первая используется для изображения текущих физических координат точки, над которой находится курсор в pictureBox1, а вторая - для изображения текущего состояния частицы (ее положения, скорости и энергии).
+  Добавляется метод, воспроизводящий текущие параметры на строке статуса
+        /// &lt;summary&gt;
+        /// Обновляет содержание метки в строке статуса с указанием текущего состояния движения частицы
+        /// &lt;/summary&gt;
+        void RefreshStatusLabel()
+        {
+            stLabelP.Text =
+               String.Format(" point:time={0:f};X={1:f};Y={2:f};Vx={3:f};Vy={4:f};Energy={5:f4}",
+               _time, _Pos.X, _Pos.Y, _V.X, _V.Y, Energy(_V, _Pos, _time));
+        }
+16. Ввод модуля скорости через текстовое окно, появляющееся в выпадающем контекстном меню.
+    Из ToolBox (раздел Menus &amp; Toolbars) берется объект класса ContextMenuStrip. Ему дается имя cntxtMenu.
+    В свойствах pictureBox1 это имя указывается в свойстве ContextMenuStrip.
+    Объекту cntxtMenu добавляется TextBox (свойство Collection) с именем vModBox.
+    Объекту cntxtMenu добавляется так же обработчик события Opening. 
+    Объекту vModBox добавляется обработчик события MouseLeave, а свойтсву ToolTipText присваивается значение "Модуль скорости частицы".
+    Весь код, связанный с установкой модуля скорости, принимает вид
+        /// &lt;summary&gt;
+        /// Изменяет изображение частицы в pictureBox
+        /// &lt;/summary&gt;
+        /// &lt;param name="refresh"&gt;
+        /// Если значение true, то изменяется весь фон вместе с изображением частицы.
+        /// В противном случае - только прямоугольник частицы.
+        /// &lt;/param&gt;
+        void Update_pbParticleImage(bool refresh)
+        {
+            if (!pictureBox1.Visible) return;
+            if (refresh)
+                pictureBox1.Refresh();
+            else
+            {
+                // Обновляется изображение частицы на pictureBox
+                pictureBox1.Invalidate(_pRect);
+                // Немедленное обновление 
+                pictureBox1.Update();
+            }
+        }
+        #region Context Menu Handlers
+        private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
+        {
+            // Если положение курсора не попадает на частицу, то меню не открывается 
+            e.Cancel = !_pRect.IntersectsWith(new Rectangle(pictureBox1.PointToClient(Cursor.Position), new Size(1, 1)));
+            if (!e.Cancel)
+                // Текущее значение модуля скорости помещается в vModBox контекстного меню
+                vModBox.Text = _V.Mod.ToString("f");
+        }
+        private void vModBox_MouseLeave(object sender, EventArgs e)
+        {
+            // Устанавливает значение модуля скорости из vModBox
+            Set_vMod();
+            // Закрывает контекстное меню
+            cntxtMenu.Close();
+            // Меняет изображение частицы
+            Update_pbParticleImage(false);
+        }
+        /// &lt;summary&gt;
+        /// Оценивает соответствие введенной строки символов в vMobBox требуемому типу числа
+        /// &lt;/summary&gt;
+        void Set_vMod()
+        {
+            double temp = Double.NaN;
+            try
+            {//Делается попытка преобразовать строку в вещественное число
+                temp = Double.Parse(vModBox.Text);
+            }
+            catch //попытка неудачная
+            {
+                ErrorReaction("Набранная строка не является вещественным числом!!" +
+                    "(Возможно,поставлена точка,вместо десятичной запятой?!)");
+                return;
+            }
+            //Специальное условие,диктуемое допустимыми пределами значений параметра
+            if (temp &lt; 0)
+            {
+                ErrorReaction("Модуль скорости не должен быть отрицательным!!");
+                return;
+            }
+            _V.Mod = temp;
+            // Состояние частицы отображется на строке статуса
+            RefreshStatusLabel();
+        }
+        /// &lt;summary&gt;
+        /// Сообщает об ошибочном вводе через редакционное окошко
+        /// &lt;/summary&gt;
+        /// &lt;param name="message"&gt;
+        /// Строка сообщения об ошибке
+        /// &lt;/param&gt;
+        void ErrorReaction(string message)
+        {
+            // Выводится сообщение об ошибке    
+            MessageBox.Show(message,
+                System.IO.Path.GetFileName(Application.ExecutablePath),
+                MessageBoxButtons.OK, MessageBoxIcon.Warning,
+                MessageBoxDefaultButton.Button1);
+            vModBox.Text = _V.Mod.ToString("f");
+        }
+        #endregion
+
+На этой стадии проекта можно вводить модуль скорости частицы. При отличной от нуля скорости должна появляться красная стрелка.
+
+17. В конструктор формы mainForm добавлен код, подключающий обработчики событий от клавиатуры KeyDown и KeyUp и обработчик событий от колесика мышки MouseWheel к объекту pictureBox1. 
+            // Подключаются обработчики клавиатуры
+            (pictureBox1 as Control).KeyDown += new KeyEventHandler(mainForm_KeyDown);
+            (pictureBox1 as Control).KeyUp += new KeyEventHandler(mainForm_KeyUp);
+            // Подключается обработчик колесика мышки
+            if (SystemInformation.MouseWheelPresent)
+                pictureBox1.MouseWheel += new MouseEventHandler(pictureBox1_MouseWheel);
+
+  Первые два обработчика следят за нажатием клавиши Ctrl с помощью булевского поля _isCtrlDown. 
+  Они помещены в раздел PictureBox Key Events Handlers. 
+        #region Picture Box Key Events Handlers
+        /// &lt;summary&gt;
+        /// Хранит указание, нажата ли клавиша Ctrl
+        /// &lt;/summary&gt;
+        bool _isCtrlDown;
+        void mainForm_KeyUp(object sender, KeyEventArgs e)
+        {
+            _isCtrlDown = false;
+        }
+        void mainForm_KeyDown(object sender, KeyEventArgs e)
+        {
+            _isCtrlDown = e.Control;
+        }
+        #endregion
+  Добавлена константа, регулируюшая величину изменения масштаба при повороте колесика
+  Обработчик от колесика мышки помещен в раздел PictureBox Mouse Events Handlers. 
+        #region PictureBox Mouse Events Handlers
+        /// &lt;summary&gt;
+        /// Хранит квант изменения масштаба окна при повороте колесика мышки
+        /// &lt;/summary&gt;
+        const float _wheelScale = .001f;
+        void pictureBox1_MouseWheel(object sender, MouseEventArgs e)
+        {
+            if (!_isCtrlDown)
+            {
+                    if (_V.Mod != 0 &amp;&amp;
+                        _pRect.IntersectsWith(new Rectangle(e.Location, new Size(1, 1))))
+                    {
+                        // Изменение направления скорости
+                        _V.Azimuth -= Math.PI / 180 * e.Delta / 40;
+                        // Состояние частицы отображется на строке статуса
+                        RefreshStatusLabel();
+                        Update_pbParticleImage(false);
+                    }
+                return;
+            }
+            // Изменение масштабов физического окна по отношению к окну pictureBox
+            // происходит инфляция прямоугольника
+            _window.Inflate(new SizeF(_window.Width * e.Delta * _wheelScale,
+                _window.Height * e.Delta * _wheelScale));
+            // Изображение обновляется
+            pictureBox1.Refresh();
+        }
+        #endregion
+Последний обработчик используется для изменения масштаба изображения, если нажата клавиша Ctrl и для выбора направления скорости частицы,если указатель мышки наведен на частицу и клавиша Ctrl не нажата.
+
+
+18. Компоненте pictureBox1 в окне Properties (панель Events) добавлены обработчики событий от мышки MouseEnter, MouseDown, MouseMove и MouseLeave. 
+  В первом (MouseEnter) pictureBox1 ставится в фокус для ввода событий от колесика мышки и клавиатуры и метка stLabelXY, 
+        private void pictureBox1_MouseEnter(object sender, EventArgs e)
+        {
+            // Фокус переносится на панель pictureBox (необходимо для обработки события от колесика мышки)
+            pictureBox1.Focus();
+            // Изображается метка в строке статуса со значениями текущих координат точки, 
+            // над которой находится курсор
+            stLabelXY.Visible = true;
+        }
+
+  Во втором (MouseDown) при нажатии левой кнопки мышки частица устанавливается в новое положение, определяемое координатами курсора. 
+Для обеспечения функции сдвига физического окна в окне pictureBox1 добавляется поле _cursorLocation хранящее текущее положение курсора.
+        /// &lt;summary&gt;
+        /// Хранит положение курсора при нажатии левой кнопки мышки. Используется при смещении прямоугольника окна.
+        /// &lt;/summary&gt;
+        Point _cursorLocation = new Point();
+        private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button != MouseButtons.Left) return;
+            if (!_isCtrlDown)
+            {
+                // Обновляется изображение частицы на панели
+                pictureBox1.Invalidate(_pRect);
+                // начальное положение частицы определяется в объектных координатах по оконным e.X, e.Y
+                _Pos.X = _window.Left + _window.Width * e.X / _pbWidth;
+                _Pos.Y = _window.Top + _window.Height * e.Y / _pbHeight;
+                // Новое состояние частицы отображется на строке статуса
+                RefreshStatusLabel();
+                // Прямоугольник частицы меняет свое положение
+                _pRect.Location = e.Location + _ltOffset;
+                Update_pbParticleImage(false);
+            }
+            // Сохраняется текущее положение курсора, используемое в алгоритме обработчика MouseMove
+            _cursorLocation = e.Location;
+        }
+
+В третьем (MouseMouve) текущие значения координат отображаются в метке stLabelXY строки статуса.
+Нажатие левой кнопки мышки над pictureBox1 и клавиши Ctrl и движение мышки приводит к сдвигу физического окна относительно окна pictureBox1
+        private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
+        {
+            // Возобновляется текст строки статуса с координатами точки, над которой находится курсор
+            stLabelXY.Text = String.Format("X={0};Y={1}",
+                _window.Left + _window.Width * e.X / _pbWidth,
+                _window.Top + _window.Height * e.Y / _pbHeight);
+            // Если не нажата левая кнопка или не нажата клавиша Control, то выполнение прекращается
+            if (e.Button != MouseButtons.Left || !_isCtrlDown) return;
+            // Если нажата левая кнопка и клавиша Control, то смещается окно
+            _window.Offset(
+                new PointF(
+                    _window.Width * (_cursorLocation.X - e.X) / _pbWidth,
+                    _window.Height * (_cursorLocation.Y - e.Y) / _pbHeight));
+            // Обновляется содержание изображения
+            pictureBox1.Refresh();
+            // Обновляется значение точки положения курсора
+            _cursorLocation = e.Location;
+        }
+
+В четвертом (MouseLeave) метка stLabelXY делается невидимой. 
+        private void pictureBox1_MouseLeave(object sender, EventArgs e)
+        {
+            // Метка в строке статуса со значениями текущих координат точки, 
+            // над которой находится курсор, исчезает
+            stLabelXY.Visible = false;
+        }
+
+Все четыре обработчика помещены в раздел PictureBox Mouse Events Handlers.
+
+На этой стадии есть возможность выбирать масштаб, положение физического окна, задавать положение и скорость частицы.
+Теперь необходимо описать движение.
+
+19. Для описания движения вводится перечислимый тип состояния движения и свойство этого типа 
+        #region Operating Properties &amp; Methods
+        /// &lt;summary&gt;
+        /// Тип состояния движения
+        /// &lt;/summary&gt;
+        enum MotionState { stop, pause, run };
+        /// &lt;summary&gt;
+        /// Хранит текущее состояние выполнения программы.
+        /// &lt;/summary&gt;
+        MotionState _motionState
+        #endregion
+20. Из окна Toolbox на форму помещена компонента класса Timer (раздел Components). В нем установлен обработчик события Tick (метод timer1_Tick). В коде этого обработчика производится изменение состояния частицы при движении методом run. 
+        /// &lt;summary&gt;
+        /// Содержит цикл движения
+        /// &lt;/summary&gt;
+        void run()
+        {
+            // Цикл выполняется пока тип состояния движения есть run
+            while (motionState == MotionState.run)
+            {
+                // Изменяется состояние частицы на один шаг
+                DoStep();
+                // Обрабатываются события приложения
+                Application.DoEvents();
+            }
+        }
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            // Таймер отключается 
+            timer1.Enabled = false;
+            run();
+        }
+    Метод DoStep регулирует изменение состояния при движении
+        /// &lt;summary&gt;
+        /// Хранит шаг по времени между кадрами
+        /// &lt;/summary&gt;
+        const double _stepTime = 1;
+        /// &lt;summary&gt;
+        /// Определяет изменение состояния на каждом шаге цикла движения
+        /// &lt;/summary&gt;
+        void DoStep()
+        {
+            _time += _stepTime;
+            // Определяется новая скорость частицы
+            _V += _stepTime * Force(_Pos, _time);
+            // Определяется новое положение
+            _Pos += _stepTime * _V;
+            // Состояние частицы отображется на строке статуса
+            RefreshStatusLabel();
+            // Стирается прежнее положение частицы
+            pictureBox1.Invalidate(_pRect);
+
+            // Прямоугольник частицы меняет свое положение
+            _pRect.Location = (curPPos = Point.Round(new PointF(
+                    ((float)_Pos.X - _window.Left) / _window.Width * _pbWidth,
+                    ((float)_Pos.Y - _window.Top) / _window.Height * _pbHeight))) + _ltOffset;
+            // Частица помещается в новое положение
+            Update_pbParticleImage(false);
+
+            // Если частица выходит за границы изображения, масштаб изображения уменьшается на 20%
+            while (!pictureBox1.ClientRectangle.IntersectsWith(_pRect))
+            {
+                // Инфляция окна в мировых координатах
+                _window.Inflate(new SizeF(.1f * _window.Width, .1f * _window.Height));
+                // Прямоугольник частицы меняет свое положение
+                _pRect.Location =
+                    Point.Round(new PointF(
+                        ((float)_Pos.X - _window.Left) / _window.Width * _pbWidth,
+                        ((float)_Pos.Y - _window.Top) / _window.Height * _pbHeight)) + _ltOffset;
+                // Изображение на плоскости полностью обновляется
+                if (pictureBox1.Visible)
+                    pictureBox1.Refresh();
+            }
+        }
+
+21. Для упрвавления движением добавляется метод, меняющий свойство motionState и свойство кнопок, вызывающих этот метод.
+        /// &lt;summary&gt;
+        /// Устанавливает состояние выполнения программы.
+        /// &lt;/summary&gt;
+        /// &lt;param name="state"&gt;
+        /// Состояние выполнения программы.
+        /// &lt;/param&gt;
+        void SetMotionState(MotionState state)
+        {
+            _motionState = state;
+            switch (state)
+            {
+                case MotionState.run:
+                    pictureBox1.Invalidate(_pRect);
+                    startButton.Enabled = breakButton.Enabled = true;
+                    startButton.Text = "Stop";
+                    breakButton.Text = "Break";
+                    timer1.Enabled = true;
+                    break;
+                case MotionState.pause:
+                    startButton.Enabled = false;
+                    breakButton.Text = "GoOn";
+                    Update_pbParticleImage(false);
+                    break;
+                case MotionState.stop:
+                    breakButton.Enabled = false;
+                    startButton.Text = "Start";
+                    _V.X = _V.Y = 0; _time = 0;
+                    // Состояние частицы отображется на строке статуса
+                    RefreshStatusLabel();
+                    Update_pbParticleImage(false);
+                    break;
+            }
+        }
+
+  На левую панель контейнера добавлена компонента класса ToolStrip (раздел Menus &amp; Toolbars окна Toolbox). 
+   К свойству Items этой компоненты toolStrip1 (окно Properties) добавлена компонента класса Button. 
+   Последняя названа startButton. Свойство DisplayStyle изменено на Text, Image на none и Text на Start. 
+   На панели Events определен обработчик события Click этой кнопки (метод startButton_Click). 
+        private void startButton_Click(object sender, EventArgs e)
+        {
+            SetMotionState(_motionState == MotionState.stop ? MotionState.run : MotionState.stop);
+        }
+ Для получения эффекта паузы (временного останова счета) к компоненту toolStrip1 класса ToolStrip на левой панели добавлена новая компонента класса Button. Последняя названа (свойство Name) breakButton. Свойство DisplayStyle изменено на Text, Enable на false, Image на none и Text на Break. 
+  На панели Events определен обработчик события Click этой кнопки (метод breakButton_Click).
+        private void breakButton_Click(object sender, EventArgs e)
+        {
+            SetMotionState(_motionState == MotionState.run ? MotionState.pause : MotionState.run);
+        }
+ К форме добавлен обработчик события Closed с тем, чтобы останавливать основной цикл движени при закрытии формы
+        /// &lt;summary&gt;
+        /// Останавливает основной цикл движения
+        /// &lt;/summary&gt;
+        /// &lt;param name="sender"&gt;&lt;/param&gt;
+        /// &lt;param name="e"&gt;&lt;/param&gt;
+        private void mainForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            _motionState = MotionState.stop;
+        }
+
+22. Внесены изменение в коды методов pictureBox1_MouseWheel и pictureBox1_MouseDown для выбора направления скорости только в состоянии stop и изменении положения частицы в состоянии, отличном от pause.
+        void pictureBox1_MouseWheel(object sender, MouseEventArgs e)
+        {
+            if (!_isCtrlDown)
+            {
+                if (_motionState == MotionState.stop)
+                    if (_V.Mod != 0 &amp;&amp;
+                        _pRect.IntersectsWith(new Rectangle(e.Location, new Size(1, 1))))
+                    {
+                        // Изменение направления скорости
+                        _V.Azimuth -= Math.PI / 180 * e.Delta / 40;
+                        // Состояние частицы отображется на строке статуса
+                        RefreshStatusLabel();
+                        Update_pbParticleImage(false);
+                    }
+                return;
+            }
+            // Изменение масштабов физического окна по отношению к окну pictureBox
+            // происходит инфляция прямоугольника
+            _window.Inflate(new SizeF(_window.Width * e.Delta * _wheelScale,
+                _window.Height * e.Delta * _wheelScale));
+            // Изображение обновляется
+            pictureBox1.Refresh();
+        }
+
+        private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button != MouseButtons.Left) return;
+            // новое начальное положение, выбираемое во время счета или в состоянии stop
+            if (_motionState != MotionState.pause &amp;&amp; !_isCtrlDown)
+            {
+                SetMotionState(MotionState.stop);
+                // Обновляется изображение частицы на панели
+                pictureBox1.Invalidate(_pRect);
+                // начальное положение частицы определяется в объектных координатах по оконным e.X, e.Y
+                _Pos.X = _window.Left + _window.Width * e.X / _pbWidth;
+                _Pos.Y = _window.Top + _window.Height * e.Y / _pbHeight;
+                // Состояние частицы отображется на строке статуса
+                RefreshStatusLabel();
+                // Прямоугольник частицы меняет свое положение
+                _pRect.Location = e.Location + _ltOffset;
+                Update_pbParticleImage(false);
+            }
+            // Сохраняется текущее положение курсора, используемое в алгоритме обработчика MouseMove
+            _cursorLocation = e.Location;
+        }
+
+
+23. Из ToolBox на контент-панель добавляется компонента TChart, с помощью которой изображаются графики зависимости координат и энергии частицы от времени. Дается имя pmChart.Свойство Visible устанавливается в false. 
+К сериям (графикам) компоненты pmChart добавляются три компоненты типа FastLine, которые получают имена xSeries, ySeries и eSeries для изображения графиков координат x,y частицы и ее энергии как функций времени.
+В метод ResetPanelsSize, регулирующий размеры, вносится компонента pmChart так, что код принимает вид
+        /// &lt;summary&gt;
+        /// Устанавливает размеры и положение pictureBox и pmChart
+        /// &lt;/summary&gt;
+        void ResetPanelsSize()
+        {
+            // Определяются высота и ширина панели, которой принадлежит pictureBox1.
+            // Минимальная из этих величин является стороной квадрата.
+            int h = toolStripContainer1.ContentPanel.ClientSize.Height,
+                w = toolStripContainer1.ContentPanel.ClientSize.Width,
+                side = h &lt; w ? h : w; // Или side=Math.Min(h,w);
+            // Границы pictureBox являются квадратом с центром в центре панели и стороной side
+            pictureBox1.Bounds = pmChart.Bounds =
+                new Rectangle(new Point((w - side) / 2, (h - side) / 2), new Size(side, side));
+        }
+
+24. К верхней панели добавляется компонента класса MenuStrip. 
+В ней создается компонента с текстом View класса MenuItem и двумя командами с текстами 2D и Chart.
+Выбор соответствующей команды позволяет отобразить либо график, либо двумерный ракурс поля с частицей. 
+Обработчики кликов этих команд получают код
+        #region Menu Strip Handlers
+        private void _2DItem_Click(object sender, EventArgs e)
+        {
+            pmChart.Visible = false;pictureBox1.Visible = true;
+        }
+        private void chartItem_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Visible = false;pmChart.Visible = true;
+        }
+        #endregion
+
+25.Для использования графиков в методе setMotionState в "случае" MotionState.stop добавляется оператор, очищающий серии графиков
+                    foreach (Series s in pmChart.Series)
+                        s.Clear();
+В методе DoStep() на каждом шаге в графики добавляется текущая точка. Метод DoStep() принимает вид
+        /// &lt;summary&gt;
+        /// Хранит максимальное число точек в сериях pmChart
+        /// &lt;/summary&gt;
+        const int _seriesLengthMax = 1000;
+        /// &lt;summary&gt;
+        /// Определяет изменение состояния на каждом шаге цикла движения
+        /// &lt;/summary&gt;
+        void DoStep()
+        {
+            _time += _stepTime;
+            // Определяется новая скорость частицы
+            _V += _stepTime * Force(_Pos, _time);
+            // Определяется новое положение
+            _Pos += _stepTime * _V;
+            // Состояние частицы отображется на строке статуса
+            RefreshStatusLabel();
+
+            // Добавляются точки к графикам развертки
+            if (xSeries.Count &lt; _seriesLengthMax)
+            {
+                xSeries.Add(_time, _Pos.X);
+                ySeries.Add(_time, _Pos.Y);
+                eSeries.Add(_time, Energy(_V, _Pos, _time));
+            }
+
+            // Если изображается pictureBox1 прежнее положение частицы очищается
+            if (pictureBox1.Visible)
+                pictureBox1.Invalidate(_pRect);
+
+            // Прямоугольник частицы меняет свое положение
+            _pRect.Location =
+                Point.Round(new PointF(
+                    ((float)_Pos.X - _window.Left) / _window.Width * _pbWidth,
+                    ((float)_Pos.Y - _window.Top) / _window.Height * _pbHeight)) + _ltOffset;
+            // Изменяется изображение частицы
+            Update_pbParticleImage(_nu != 0);
+
+            // Если частица выходит за границы изображения, масштаб изображения уменьшается на 20%
+            while (!pictureBox1.ClientRectangle.IntersectsWith(_pRect))
+            {
+                // Инфляция окна в мировых координатах
+                _window.Inflate(new SizeF(.1f * _window.Width, .1f * _window.Height));
+                // Прямоугольник частицы меняет свое положение
+                _pRect.Location =
+                    Point.Round(new PointF(
+                        ((float)_Pos.X - _window.Left) / _window.Width * _pbWidth,
+                        ((float)_Pos.Y - _window.Top) / _window.Height * _pbHeight)) + _ltOffset;
+                // Изображение на плоскости полностью обновляется
+                if (pictureBox1.Visible)
+                    pictureBox1.Refresh();
+            }
+        }
+
+26. Для ввода частоты изменения поля 
+	- к коллекции главного меню добавляется компонента типа TextBox, которой дается имя (Name) nuBox.
+	- свойству ToolTipText этой компоненты дается значение "Частота изменения поля"
+	- создаются два обработчика событий Click и MouseLeave компоненты nuBox следующего содержания
+        private void nuBox_Click(object sender, EventArgs e)
+        {
+            // Счет останаливается
+            SetMotionState(MotionState.stop);
+            // Изображение обновляется
+            pictureBox1.Refresh();
+        }
+        private void nuBox_MouseLeave(object sender, EventArgs e)
+        {
+            // Вводится значение частоты 
+            _nu = Double.Parse(nuBox.Text);
+        }
+	- В конструктор формы mainForm() добавляется строка кода, инициализирующая nuBox
+            // Установка частоты колебаний поля по умолчанию в nuBox
+            nuBox.Text = _nu.ToString("f");
+	- в метод SetMotionState добавляются строки дезактивации и реактивации nuBox в случаях run и stop соответственно
+                    nuBox.Enabled = false; // В случае case MotionState.run:
+                    nuBox.Enabled = true;  // В случае case MotionState.stop:
+	- в том же методе SetMotionState с влучае stop строка с вызовом Update_pbParticleImage(false) заменяется строкой
+                    Update_pbParticleImage(_nu != 0);// Если nu не равно нулю, то обновлять следует все изображение
+	- в методе DoStep() меняется условие вызова метода Invalidate
+            // Если pictureBox изображен и поле стационарное, то прежнее положение частицы очищается
+            if (pictureBox1.Visible &amp;&amp; _nu == 0)
+                pictureBox1.Invalidate(_pRect);
+	- в том же методе DoStep() обращение к методу Update_pbParticleImage(false) следует заменить на
+            // Изменяется изображение частицы
+            Update_pbParticleImage(_nu != 0);
+	- в обработчик pictureBox1_MouseWheel добавляется возможность изменять начальное время, равное по умолчанию нулю, если частота нулю не равна. Для этого добавляется соответствующий код и обработчик принимает вид
+        void pictureBox1_MouseWheel(object sender, MouseEventArgs e)
+        {
+            if (!_isCtrlDown)
+            {
+                if (_motionState == MotionState.stop)
+                    if (_V.Mod != 0 &amp;&amp;
+                        _pRect.IntersectsWith(new Rectangle(e.Location, new Size(1, 1))))
+                    {
+                        // Изменение направления скорости
+                        _V.Azimuth -= Math.PI / 180 * e.Delta / 40;
+                        // Состояние частицы отображется на строке статуса
+                        RefreshStatusLabel();
+                        Update_pbParticleImage(false);
+                    }
+                    else
+                        if (_nu != 0)
+                        {
+                            // Изменение времени
+                            _time += e.Delta * .001;
+                            // Состояние частицы отображется на строке статуса
+                            RefreshStatusLabel();
+                            Update_pbParticleImage(true);
+                        }
+                return;
+            }
+            // Изменение масштабов физического окна по отношению к окну pictureBox
+            // происходит инфляция прямоугольника
+            _window.Inflate(new SizeF(_window.Width * e.Delta * _wheelScale,
+                _window.Height * e.Delta * _wheelScale));
+            // Изображение обновляется
+            pictureBox1.Refresh();
+        }
+
+Новый код позволяет
+   - задавать частоту колебаний поля (обработчик nuBox_MouseLeave);
+   - менять начальное время (начальную фазу поля) в состоянии stop вращением колесика мышки в обработчике pictureBox1_MouseWheel в случае нестационарного поля;
+
+27. Для использования классов интеграторов добавлены ссылки на библиотеки Integrators и Integrators.MechSystems. Проведена редакция кода так, чтобы использование этих классов было доступно при условной компиляции.
+28. К коллекции главного меню добавлена компонента nuBox типа TextBox для ввода частоты изменения поля.Измененный код позволяет
+   - задавать частоту колебаний поля (обработчик nuBox_MouseLeave);
+   - менять начальное время (начальную фазу поля) в состоянии stop вращением колесика мышки в обработчике pictureBox1_MouseWheel в случае нестационарного поля;
+
+
+Фомин Г.В.</value>
+  </data>
+  <data name="DesignCode" xml:space="preserve">
+    <value>namespace nsParticleMotion
+{
+    partial class mainForm
+    {
+        /// &lt;summary&gt;
+        /// Required designer variable.
+        /// &lt;/summary&gt;
+        private System.ComponentModel.IContainer components = null;
+
+        /// &lt;summary&gt;
+        /// Clean up any resources being used.
+        /// &lt;/summary&gt;
+        /// &lt;param name="disposing"&gt;true if managed resources should be disposed; otherwise, false.&lt;/param&gt;
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing &amp;&amp; (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// &lt;summary&gt;
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// &lt;/summary&gt;
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.cntxtMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.vModBox = new System.Windows.Forms.ToolStripTextBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.stLabelXY = new System.Windows.Forms.ToolStripStatusLabel();
+            this.stLabelP = new System.Windows.Forms.ToolStripStatusLabel();
+            this.pmChart = new Steema.TeeChart.TChart();
+            this.xSeries = new Steema.TeeChart.Styles.FastLine();
+            this.ySeries = new Steema.TeeChart.Styles.FastLine();
+            this.eSeries = new Steema.TeeChart.Styles.FastLine();
+            this.panelGL = new System.Windows.Forms.Panel();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.breakButton = new System.Windows.Forms.ToolStripButton();
+            this.startButton = new System.Windows.Forms.ToolStripButton();
+            this.refreshButton = new System.Windows.Forms.ToolStripButton();
+            this.trBtn = new System.Windows.Forms.ToolStripButton();
+            this.trModeButton = new System.Windows.Forms.ToolStripSplitButton();
+            this.point_pixel_Mode = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStrip2 = new System.Windows.Forms.ToolStrip();
+            this.closeButton = new System.Windows.Forms.ToolStripButton();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.viewMenu = new System.Windows.Forms.ToolStripMenuItem();
+            this._2DItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.chartItem = new System.Windows.Forms.ToolStripMenuItem();
+            this._3DItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nuBox = new System.Windows.Forms.ToolStripTextBox();
+            this.howToHelpItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.codeHelpItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.designerCodeHelpItem = new System.Windows.Forms.ToolStripMenuItem();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.cntxtMenu.SuspendLayout();
+            this.toolStripContainer1.BottomToolStripPanel.SuspendLayout();
+            this.toolStripContainer1.ContentPanel.SuspendLayout();
+            this.toolStripContainer1.LeftToolStripPanel.SuspendLayout();
+            this.toolStripContainer1.RightToolStripPanel.SuspendLayout();
+            this.toolStripContainer1.TopToolStripPanel.SuspendLayout();
+            this.toolStripContainer1.SuspendLayout();
+            this.statusStrip1.SuspendLayout();
+            this.toolStrip1.SuspendLayout();
+            this.toolStrip2.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.pictureBox1.ContextMenuStrip = this.cntxtMenu;
+            this.pictureBox1.Location = new System.Drawing.Point(140, 130);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(510, 409);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.MouseLeave += new System.EventHandler(this.pictureBox1_MouseLeave);
+            this.pictureBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseMove);
+            this.pictureBox1.Resize += new System.EventHandler(this.pictureBox1_Resize);
+            this.pictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseDown);
+            this.pictureBox1.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox1_Paint);
+            this.pictureBox1.MouseEnter += new System.EventHandler(this.pictureBox1_MouseEnter);
+            // 
+            // cntxtMenu
+            // 
+            this.cntxtMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.vModBox});
+            this.cntxtMenu.Name = "contextMenuStrip1";
+            this.cntxtMenu.Size = new System.Drawing.Size(161, 29);
+            this.cntxtMenu.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
+            // 
+            // vModBox
+            // 
+            this.vModBox.Name = "vModBox";
+            this.vModBox.Size = new System.Drawing.Size(100, 23);
+            this.vModBox.Text = "0";
+            this.vModBox.ToolTipText = "Модуль скорости частицы";
+            this.vModBox.MouseLeave += new System.EventHandler(this.vModBox_MouseLeave);
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 10;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // toolStripContainer1
+            // 
+            // 
+            // toolStripContainer1.BottomToolStripPanel
+            // 
+            this.toolStripContainer1.BottomToolStripPanel.Controls.Add(this.statusStrip1);
+            // 
+            // toolStripContainer1.ContentPanel
+            // 
+            this.toolStripContainer1.ContentPanel.BackColor = System.Drawing.SystemColors.Control;
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.pmChart);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.panelGL);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.pictureBox1);
+            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(657, 624);
+            this.toolStripContainer1.ContentPanel.Resize += new System.EventHandler(this.toolStripContainer1_ContentPanel_Resize);
+            this.toolStripContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            // 
+            // toolStripContainer1.LeftToolStripPanel
+            // 
+            this.toolStripContainer1.LeftToolStripPanel.Controls.Add(this.toolStrip1);
+            this.toolStripContainer1.Location = new System.Drawing.Point(0, 0);
+            this.toolStripContainer1.Name = "toolStripContainer1";
+            // 
+            // toolStripContainer1.RightToolStripPanel
+            // 
+            this.toolStripContainer1.RightToolStripPanel.Controls.Add(this.toolStrip2);
+            this.toolStripContainer1.Size = new System.Drawing.Size(770, 673);
+            this.toolStripContainer1.TabIndex = 2;
+            this.toolStripContainer1.Text = "toolStripContainer1";
+            // 
+            // toolStripContainer1.TopToolStripPanel
+            // 
+            this.toolStripContainer1.TopToolStripPanel.Controls.Add(this.menuStrip1);
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.Dock = System.Windows.Forms.DockStyle.None;
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.stLabelXY,
+            this.stLabelP});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 0);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(770, 22);
+            this.statusStrip1.TabIndex = 0;
+            // 
+            // stLabelXY
+            // 
+            this.stLabelXY.Name = "stLabelXY";
+            this.stLabelXY.Size = new System.Drawing.Size(0, 17);
+            // 
+            // stLabelP
+            // 
+            this.stLabelP.Name = "stLabelP";
+            this.stLabelP.Size = new System.Drawing.Size(0, 17);
+            // 
+            // pmChart
+            // 
+            // 
+            // 
+            // 
+            this.pmChart.Aspect.ElevationFloat = 345;
+            this.pmChart.Aspect.RotationFloat = 345;
+            this.pmChart.Aspect.View3D = false;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Bottom.Automatic = true;
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Bottom.Grid.Style = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.pmChart.Axes.Bottom.Grid.ZPosition = 0;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Bottom.Labels.Font.Shadow.Visible = false;
+            this.pmChart.Axes.Bottom.Labels.Font.Unit = System.Drawing.GraphicsUnit.World;
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Bottom.Labels.Shadow.Visible = false;
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Bottom.Title.Caption = "Time";
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Bottom.Title.Font.Shadow.Visible = false;
+            this.pmChart.Axes.Bottom.Title.Font.Unit = System.Drawing.GraphicsUnit.World;
+            this.pmChart.Axes.Bottom.Title.Lines = new string[] {
+        "Time"};
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Bottom.Title.Shadow.Visible = false;
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Depth.Automatic = true;
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Depth.Grid.Style = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.pmChart.Axes.Depth.Grid.ZPosition = 0;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Depth.Labels.Font.Shadow.Visible = false;
+            this.pmChart.Axes.Depth.Labels.Font.Unit = System.Drawing.GraphicsUnit.World;
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Depth.Labels.Shadow.Visible = false;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Depth.Title.Font.Shadow.Visible = false;
+            this.pmChart.Axes.Depth.Title.Font.Unit = System.Drawing.GraphicsUnit.World;
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Depth.Title.Shadow.Visible = false;
+            // 
+            // 
+            // 
+            this.pmChart.Axes.DepthTop.Automatic = true;
+            // 
+            // 
+            // 
+            this.pmChart.Axes.DepthTop.Grid.Style = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.pmChart.Axes.DepthTop.Grid.ZPosition = 0;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.pmChart.Axes.DepthTop.Labels.Font.Shadow.Visible = false;
+            this.pmChart.Axes.DepthTop.Labels.Font.Unit = System.Drawing.GraphicsUnit.World;
+            // 
+            // 
+            // 
+            this.pmChart.Axes.DepthTop.Labels.Shadow.Visible = false;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.pmChart.Axes.DepthTop.Title.Font.Shadow.Visible = false;
+            this.pmChart.Axes.DepthTop.Title.Font.Unit = System.Drawing.GraphicsUnit.World;
+            // 
+            // 
+            // 
+            this.pmChart.Axes.DepthTop.Title.Shadow.Visible = false;
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Left.Automatic = true;
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Left.Grid.Style = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.pmChart.Axes.Left.Grid.ZPosition = 0;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Left.Labels.Font.Brush.Color = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(0)))));
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Left.Labels.Font.Shadow.Visible = false;
+            this.pmChart.Axes.Left.Labels.Font.Unit = System.Drawing.GraphicsUnit.World;
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Left.Labels.Shadow.Visible = false;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Left.Title.Font.Shadow.Visible = false;
+            this.pmChart.Axes.Left.Title.Font.Unit = System.Drawing.GraphicsUnit.World;
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Left.Title.Shadow.Visible = false;
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Right.Automatic = true;
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Right.Grid.Style = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.pmChart.Axes.Right.Grid.ZPosition = 0;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Right.Labels.Font.Shadow.Visible = false;
+            this.pmChart.Axes.Right.Labels.Font.Unit = System.Drawing.GraphicsUnit.World;
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Right.Labels.Shadow.Visible = false;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Right.Title.Font.Shadow.Visible = false;
+            this.pmChart.Axes.Right.Title.Font.Unit = System.Drawing.GraphicsUnit.World;
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Right.Title.Shadow.Visible = false;
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Top.Automatic = true;
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Top.Grid.Style = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.pmChart.Axes.Top.Grid.ZPosition = 0;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Top.Labels.Font.Shadow.Visible = false;
+            this.pmChart.Axes.Top.Labels.Font.Unit = System.Drawing.GraphicsUnit.World;
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Top.Labels.Shadow.Visible = false;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Top.Title.Font.Shadow.Visible = false;
+            this.pmChart.Axes.Top.Title.Font.Unit = System.Drawing.GraphicsUnit.World;
+            // 
+            // 
+            // 
+            this.pmChart.Axes.Top.Title.Shadow.Visible = false;
+            this.pmChart.Cursor = System.Windows.Forms.Cursors.Default;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.pmChart.Footer.Font.Shadow.Visible = false;
+            this.pmChart.Footer.Font.Unit = System.Drawing.GraphicsUnit.World;
+            // 
+            // 
+            // 
+            this.pmChart.Footer.Shadow.Visible = false;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.pmChart.Header.Font.Brush.Color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            // 
+            // 
+            // 
+            this.pmChart.Header.Font.Shadow.Visible = false;
+            this.pmChart.Header.Font.Unit = System.Drawing.GraphicsUnit.World;
+            this.pmChart.Header.Lines = new string[] {
+        "Particle Motion Charts"};
+            // 
+            // 
+            // 
+            this.pmChart.Header.Shadow.Visible = false;
+            // 
+            // 
+            // 
+            this.pmChart.Legend.Alignment = Steema.TeeChart.LegendAlignments.Top;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.pmChart.Legend.Gradient.EndColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.pmChart.Legend.Gradient.StartColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(128)))));
+            this.pmChart.Legend.Gradient.Visible = true;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.pmChart.Legend.Font.Brush.Color = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(0)))));
+            // 
+            // 
+            // 
+            this.pmChart.Legend.Font.Shadow.Visible = false;
+            this.pmChart.Legend.Font.Unit = System.Drawing.GraphicsUnit.World;
+            this.pmChart.Legend.LegendStyle = Steema.TeeChart.LegendStyles.Series;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.pmChart.Legend.Title.Font.Bold = true;
+            // 
+            // 
+            // 
+            this.pmChart.Legend.Title.Font.Brush.Color = System.Drawing.Color.Yellow;
+            // 
+            // 
+            // 
+            this.pmChart.Legend.Title.Font.Shadow.Visible = false;
+            this.pmChart.Legend.Title.Font.Unit = System.Drawing.GraphicsUnit.World;
+            // 
+            // 
+            // 
+            this.pmChart.Legend.Title.Pen.Visible = false;
+            // 
+            // 
+            // 
+            this.pmChart.Legend.Title.Shadow.Visible = false;
+            this.pmChart.Location = new System.Drawing.Point(222, 221);
+            this.pmChart.Name = "pmChart";
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.pmChart.Panel.Gradient.EndColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.pmChart.Panel.Gradient.StartColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(128)))));
+            this.pmChart.Panel.Gradient.Visible = true;
+            // 
+            // 
+            // 
+            this.pmChart.Panel.Shadow.Visible = false;
+            this.pmChart.Series.Add(this.xSeries);
+            this.pmChart.Series.Add(this.ySeries);
+            this.pmChart.Series.Add(this.eSeries);
+            this.pmChart.Size = new System.Drawing.Size(400, 250);
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.pmChart.SubFooter.Font.Shadow.Visible = false;
+            this.pmChart.SubFooter.Font.Unit = System.Drawing.GraphicsUnit.World;
+            // 
+            // 
+            // 
+            this.pmChart.SubFooter.Shadow.Visible = false;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.pmChart.SubHeader.Font.Shadow.Visible = false;
+            this.pmChart.SubHeader.Font.Unit = System.Drawing.GraphicsUnit.World;
+            // 
+            // 
+            // 
+            this.pmChart.SubHeader.Shadow.Visible = false;
+            this.pmChart.TabIndex = 2;
+            this.pmChart.Visible = false;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.pmChart.Walls.Back.AutoHide = false;
+            // 
+            // 
+            // 
+            this.pmChart.Walls.Back.Shadow.Visible = false;
+            // 
+            // 
+            // 
+            this.pmChart.Walls.Bottom.AutoHide = false;
+            // 
+            // 
+            // 
+            this.pmChart.Walls.Bottom.Shadow.Visible = false;
+            // 
+            // 
+            // 
+            this.pmChart.Walls.Left.AutoHide = false;
+            // 
+            // 
+            // 
+            this.pmChart.Walls.Left.Shadow.Visible = false;
+            // 
+            // 
+            // 
+            this.pmChart.Walls.Right.AutoHide = false;
+            // 
+            // 
+            // 
+            this.pmChart.Walls.Right.Shadow.Visible = false;
+            this.pmChart.Walls.Visible = false;
+            // 
+            // xSeries
+            // 
+            // 
+            // 
+            // 
+            this.xSeries.LinePen.Color = System.Drawing.Color.Red;
+            this.xSeries.LinePen.Width = 2;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.xSeries.Marks.Callout.ArrowHead = Steema.TeeChart.Styles.ArrowHeadStyles.None;
+            this.xSeries.Marks.Callout.ArrowHeadSize = 8;
+            // 
+            // 
+            // 
+            this.xSeries.Marks.Callout.Brush.Color = System.Drawing.Color.Black;
+            this.xSeries.Marks.Callout.Distance = 0;
+            this.xSeries.Marks.Callout.Draw3D = false;
+            this.xSeries.Marks.Callout.Length = 10;
+            this.xSeries.Marks.Callout.Style = Steema.TeeChart.Styles.PointerStyles.Rectangle;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.xSeries.Marks.Font.Shadow.Visible = false;
+            this.xSeries.Marks.Font.Unit = System.Drawing.GraphicsUnit.World;
+            this.xSeries.Title = "x(t)";
+            // 
+            // 
+            // 
+            this.xSeries.XValues.DataMember = "X";
+            this.xSeries.XValues.Order = Steema.TeeChart.Styles.ValueListOrder.Ascending;
+            // 
+            // 
+            // 
+            this.xSeries.YValues.DataMember = "Y";
+            // 
+            // ySeries
+            // 
+            // 
+            // 
+            // 
+            this.ySeries.LinePen.Color = System.Drawing.Color.Green;
+            this.ySeries.LinePen.Width = 2;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.ySeries.Marks.Callout.ArrowHead = Steema.TeeChart.Styles.ArrowHeadStyles.None;
+            this.ySeries.Marks.Callout.ArrowHeadSize = 8;
+            // 
+            // 
+            // 
+            this.ySeries.Marks.Callout.Brush.Color = System.Drawing.Color.Black;
+            this.ySeries.Marks.Callout.Distance = 0;
+            this.ySeries.Marks.Callout.Draw3D = false;
+            this.ySeries.Marks.Callout.Length = 10;
+            this.ySeries.Marks.Callout.Style = Steema.TeeChart.Styles.PointerStyles.Rectangle;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.ySeries.Marks.Font.Shadow.Visible = false;
+            this.ySeries.Marks.Font.Unit = System.Drawing.GraphicsUnit.World;
+            this.ySeries.Title = "y(t)";
+            // 
+            // 
+            // 
+            this.ySeries.XValues.DataMember = "X";
+            this.ySeries.XValues.Order = Steema.TeeChart.Styles.ValueListOrder.Ascending;
+            // 
+            // 
+            // 
+            this.ySeries.YValues.DataMember = "Y";
+            // 
+            // eSeries
+            // 
+            // 
+            // 
+            // 
+            this.eSeries.LinePen.Color = System.Drawing.Color.Yellow;
+            this.eSeries.LinePen.Width = 2;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.eSeries.Marks.Callout.ArrowHead = Steema.TeeChart.Styles.ArrowHeadStyles.None;
+            this.eSeries.Marks.Callout.ArrowHeadSize = 8;
+            // 
+            // 
+            // 
+            this.eSeries.Marks.Callout.Brush.Color = System.Drawing.Color.Black;
+            this.eSeries.Marks.Callout.Distance = 0;
+            this.eSeries.Marks.Callout.Draw3D = false;
+            this.eSeries.Marks.Callout.Length = 10;
+            this.eSeries.Marks.Callout.Style = Steema.TeeChart.Styles.PointerStyles.Rectangle;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.eSeries.Marks.Font.Shadow.Visible = false;
+            this.eSeries.Marks.Font.Unit = System.Drawing.GraphicsUnit.World;
+            this.eSeries.Title = "Energy";
+            // 
+            // 
+            // 
+            this.eSeries.XValues.DataMember = "X";
+            this.eSeries.XValues.Order = Steema.TeeChart.Styles.ValueListOrder.Ascending;
+            // 
+            // 
+            // 
+            this.eSeries.YValues.DataMember = "Y";
+            // 
+            // panelGL
+            // 
+            this.panelGL.Location = new System.Drawing.Point(167, 140);
+            this.panelGL.Name = "panelGL";
+            this.panelGL.Size = new System.Drawing.Size(200, 100);
+            this.panelGL.TabIndex = 1;
+            this.panelGL.Visible = false;
+            this.panelGL.Paint += new System.Windows.Forms.PaintEventHandler(this.panelGL_Paint);
+            this.panelGL.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panelGL_MouseMove);
+            this.panelGL.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelGL_MouseDown);
+            this.panelGL.SizeChanged += new System.EventHandler(this.panelGL_SizeChanged);
+            this.panelGL.MouseEnter += new System.EventHandler(this.panelGL_MouseEnter);
+            // 
+            // toolStrip1
+            // 
+            this.toolStrip1.Dock = System.Windows.Forms.DockStyle.None;
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.breakButton,
+            this.startButton,
+            this.refreshButton,
+            this.trBtn,
+            this.trModeButton});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 3);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(72, 118);
+            this.toolStrip1.TabIndex = 0;
+            // 
+            // breakButton
+            // 
+            this.breakButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.breakButton.Enabled = false;
+            this.breakButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.breakButton.Name = "breakButton";
+            this.breakButton.Size = new System.Drawing.Size(70, 19);
+            this.breakButton.Text = "Break";
+            this.breakButton.Click += new System.EventHandler(this.break_Click);
+            // 
+            // startButton
+            // 
+            this.startButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.startButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.startButton.Name = "startButton";
+            this.startButton.Size = new System.Drawing.Size(70, 19);
+            this.startButton.Text = "Start";
+            this.startButton.Click += new System.EventHandler(this.startButton_Click);
+            // 
+            // refreshButton
+            // 
+            this.refreshButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.refreshButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.refreshButton.Name = "refreshButton";
+            this.refreshButton.Size = new System.Drawing.Size(70, 19);
+            this.refreshButton.Text = "Refresh";
+            this.refreshButton.Click += new System.EventHandler(this.refreshButton_Click);
+            // 
+            // trBtn
+            // 
+            this.trBtn.CheckOnClick = true;
+            this.trBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.trBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.trBtn.Name = "trBtn";
+            this.trBtn.Size = new System.Drawing.Size(70, 19);
+            this.trBtn.Text = "Tracing";
+            this.trBtn.ToolTipText = "Наличие следа";
+            this.trBtn.Click += new System.EventHandler(this.trBtn_Click);
+            // 
+            // trModeButton
+            // 
+            this.trModeButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.trModeButton.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.point_pixel_Mode});
+            this.trModeButton.Font = new System.Drawing.Font("Segoe UI", 7F);
+            this.trModeButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.trModeButton.Name = "trModeButton";
+            this.trModeButton.Size = new System.Drawing.Size(70, 16);
+            this.trModeButton.Text = "trace mode";
+            this.trModeButton.DropDownItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.trModeButton_DropDownItemClicked);
+            // 
+            // point_pixel_Mode
+            // 
+            this.point_pixel_Mode.Checked = true;
+            this.point_pixel_Mode.CheckOnClick = true;
+            this.point_pixel_Mode.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.point_pixel_Mode.Name = "point_pixel_Mode";
+            this.point_pixel_Mode.Size = new System.Drawing.Size(117, 22);
+            this.point_pixel_Mode.Text = "point/pixel";
+            // 
+            // toolStrip2
+            // 
+            this.toolStrip2.Dock = System.Windows.Forms.DockStyle.None;
+            this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.closeButton});
+            this.toolStrip2.Location = new System.Drawing.Point(0, 3);
+            this.toolStrip2.Name = "toolStrip2";
+            this.toolStrip2.Size = new System.Drawing.Size(41, 33);
+            this.toolStrip2.TabIndex = 0;
+            // 
+            // closeButton
+            // 
+            this.closeButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.closeButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.closeButton.Name = "closeButton";
+            this.closeButton.Size = new System.Drawing.Size(39, 19);
+            this.closeButton.Text = "Close";
+            this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Dock = System.Windows.Forms.DockStyle.None;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.viewMenu,
+            this.helpItem,
+            this.nuBox});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.ShowItemToolTips = true;
+            this.menuStrip1.Size = new System.Drawing.Size(770, 27);
+            this.menuStrip1.TabIndex = 1;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // viewMenu
+            // 
+            this.viewMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this._2DItem,
+            this.chartItem,
+            this._3DItem});
+            this.viewMenu.Name = "viewMenu";
+            this.viewMenu.Size = new System.Drawing.Size(44, 23);
+            this.viewMenu.Text = "View";
+            // 
+            // _2DItem
+            // 
+            this._2DItem.Name = "_2DItem";
+            this._2DItem.Size = new System.Drawing.Size(103, 22);
+            this._2DItem.Text = "2D";
+            this._2DItem.Click += new System.EventHandler(this._2DItem_Click);
+            // 
+            // chartItem
+            // 
+            this.chartItem.Name = "chartItem";
+            this.chartItem.Size = new System.Drawing.Size(103, 22);
+            this.chartItem.Text = "Chart";
+            this.chartItem.Click += new System.EventHandler(this.chartItem_Click);
+            // 
+            // _3DItem
+            // 
+            this._3DItem.Name = "_3DItem";
+            this._3DItem.Size = new System.Drawing.Size(103, 22);
+            this._3DItem.Text = "3D";
+            this._3DItem.Click += new System.EventHandler(this._3DItem_Click);
+            // 
+            // helpItem
+            // 
+            this.helpItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.howToHelpItem,
+            this.codeHelpItem,
+            this.designerCodeHelpItem});
+            this.helpItem.Name = "helpItem";
+            this.helpItem.Size = new System.Drawing.Size(65, 23);
+            this.helpItem.Text = "Справка";
+            this.helpItem.DropDownItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.helpItem_DropDownItemClicked);
+            // 
+            // nuBox
+            // 
+            this.nuBox.Name = "nuBox";
+            this.nuBox.Size = new System.Drawing.Size(100, 23);
+            this.nuBox.ToolTipText = "Частота изменения поля";
+            this.nuBox.MouseLeave += new System.EventHandler(this.nuBox_MouseLeave);
+            this.nuBox.Click += new System.EventHandler(this.nuBox_Click);
+            // 
+            // howToHelpItem
+            // 
+            this.howToHelpItem.Name = "howToHelpItem";
+            this.howToHelpItem.Size = new System.Drawing.Size(178, 22);
+            this.howToHelpItem.Text = "Описание";
+            // 
+            // codeHelpItem
+            // 
+            this.codeHelpItem.Name = "codeHelpItem";
+            this.codeHelpItem.Size = new System.Drawing.Size(178, 22);
+            this.codeHelpItem.Text = "Код программиста";
+            // 
+            // designerCodeHelpItem
+            // 
+            this.designerCodeHelpItem.Name = "designerCodeHelpItem";
+            this.designerCodeHelpItem.Size = new System.Drawing.Size(178, 22);
+            this.designerCodeHelpItem.Text = "Код дизайнера";
+            // 
+            // mainForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(770, 673);
+            this.Controls.Add(this.toolStripContainer1);
+            this.MainMenuStrip = this.menuStrip1;
+            this.Name = "mainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Particle Motion";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.mainForm_FormClosed);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.cntxtMenu.ResumeLayout(false);
+            this.cntxtMenu.PerformLayout();
+            this.toolStripContainer1.BottomToolStripPanel.ResumeLayout(false);
+            this.toolStripContainer1.BottomToolStripPanel.PerformLayout();
+            this.toolStripContainer1.ContentPanel.ResumeLayout(false);
+            this.toolStripContainer1.LeftToolStripPanel.ResumeLayout(false);
+            this.toolStripContainer1.LeftToolStripPanel.PerformLayout();
+            this.toolStripContainer1.RightToolStripPanel.ResumeLayout(false);
+            this.toolStripContainer1.RightToolStripPanel.PerformLayout();
+            this.toolStripContainer1.TopToolStripPanel.ResumeLayout(false);
+            this.toolStripContainer1.TopToolStripPanel.PerformLayout();
+            this.toolStripContainer1.ResumeLayout(false);
+            this.toolStripContainer1.PerformLayout();
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
+            this.toolStrip2.ResumeLayout(false);
+            this.toolStrip2.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.ToolStripContainer toolStripContainer1;
+        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStripButton breakButton;
+        private System.Windows.Forms.ToolStripButton refreshButton;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel stLabelXY;
+        private System.Windows.Forms.ToolStripStatusLabel stLabelP;
+        private System.Windows.Forms.ToolStrip toolStrip2;
+        private System.Windows.Forms.ToolStripButton closeButton;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem helpItem;
+        private System.Windows.Forms.ToolStripTextBox nuBox;
+        private System.Windows.Forms.ContextMenuStrip cntxtMenu;
+        private System.Windows.Forms.ToolStripTextBox vModBox;
+        private System.Windows.Forms.ToolStripButton trBtn;
+        private System.Windows.Forms.ToolStripButton startButton;
+        private System.Windows.Forms.Panel panelGL;
+        private Steema.TeeChart.TChart pmChart;
+        private Steema.TeeChart.Styles.FastLine xSeries;
+        private Steema.TeeChart.Styles.FastLine ySeries;
+        private Steema.TeeChart.Styles.FastLine eSeries;
+        private System.Windows.Forms.ToolStripMenuItem viewMenu;
+        private System.Windows.Forms.ToolStripMenuItem _2DItem;
+        private System.Windows.Forms.ToolStripMenuItem chartItem;
+        private System.Windows.Forms.ToolStripMenuItem _3DItem;
+        private System.Windows.Forms.ToolStripSplitButton trModeButton;
+        private System.Windows.Forms.ToolStripMenuItem point_pixel_Mode;
+        private System.Windows.Forms.ToolStripMenuItem howToHelpItem;
+        private System.Windows.Forms.ToolStripMenuItem codeHelpItem;
+        private System.Windows.Forms.ToolStripMenuItem designerCodeHelpItem;
+    }
+}
+
+</value>
+  </data>
+  <data name="code" xml:space="preserve">
+    <value>#define unsizable
+#undef unsizable
+#define intgr
+#undef intgr
+#define defState
+#undef defState
+#define _3D
+#undef _3D
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using System.Drawing.Drawing2D;
+#if intgr
+using Integrators;
+using Integrators.MechSystems;
+#endif
+using Steema.TeeChart.Styles;
+#if _3D
+using GL;
+#endif
+
+namespace nsParticleMotion
+{
+
+    public partial class mainForm : Form
+    {
+#if defState
+        delegate void onStateChange();
+        struct ParticleState
+        {
+            Vector2D _v;
+            Vector2D _pos;
+            double _time;
+            internal event onStateChange OnStateChange;
+            internal Vector2D V
+            {
+                set { _v = value; if (null != OnStateChange) OnStateChange(); }
+                get { return _v; }
+            }
+            internal Vector2D Pos
+            {
+                set { _pos = value; if (null != OnStateChange)OnStateChange(); }
+                get { return _pos; }
+            }
+            internal double Time
+            {
+                set { _time = value; if (null != OnStateChange)OnStateChange(); }
+                get { return _time; }
+            }
+        }
+#endif
+        /// &lt;summary&gt;
+        /// Описывает алгебру вектора на плоскости
+        /// &lt;/summary&gt;
+        struct Vector2D
+        {
+            // Поля структуры 
+            // Декартовые компоненты вектора _x и _y
+            double _x, _y;
+            // Модуль и угол (полярные компоненты вектора)
+            double _mod, _azimuth;
+            // Свойства структуры, отвечающие ее полям
+            /// &lt;summary&gt;
+            /// Устанавливает значение x-компоненты вектора и вычисляет его модуль и направление.
+            /// Возвращает x-компоненту вектора
+            /// &lt;/summary&gt;
+            internal double X
+            {
+                set
+                {
+                    _x = value;
+                    _mod = Math.Sqrt(this * this); _azimuth = Math.Atan2(_y, _x);
+                }
+                // Метод get возвращает значение поля _x
+                get { return _x; }
+            }
+            /// &lt;summary&gt;
+            /// Устанавливает значение y-компоненты вектора и вычисляет его модуль и направление.
+            /// Возвращает y-компоненту вектора
+            /// &lt;/summary&gt;
+            internal double Y
+            {
+                set
+                {
+                    _y = value;
+                    _mod = Math.Sqrt(this * this); _azimuth = Math.Atan2(_y, _x);
+                }
+                get { return _y; }
+            }
+            /// &lt;summary&gt;
+            /// Устанавливает направление вектора и вычисляет его компоненты.
+            /// Возвращает направление вектора.
+            /// &lt;/summary&gt;
+            internal double Azimuth
+            {
+                set
+                {
+                    _azimuth = value;
+                    _y = _mod * Math.Sin(_azimuth);
+                    _x = _mod * Math.Cos(_azimuth);
+                }
+                get { return _azimuth; }
+            }
+            /// &lt;summary&gt;
+            /// Устанавливает модуль (длину) вектора и вычисляет его компоненты.
+            /// Возвращает модуль (длину) вектора.
+            /// &lt;/summary&gt;
+            internal double Mod
+            {
+                set
+                {
+                    _mod = value;
+                    _y = _mod * Math.Sin(_azimuth);
+                    _x = _mod * Math.Cos(_azimuth);
+                }
+                get { return _mod; }
+            }
+
+            // Конструкторы структуры
+            /// &lt;summary&gt;
+            /// Создает экземпляр структуры с заданными декартовыми координатами x и y
+            /// &lt;/summary&gt;
+            /// &lt;param name="x"&gt;
+            /// x-координата
+            /// &lt;/param&gt;
+            /// &lt;param name="y"&gt;
+            /// y-координата
+            /// &lt;/param&gt;
+            internal Vector2D(double x, double y)
+            {
+                _x = x;
+                _y = y;
+                _mod = Math.Sqrt(_x * _x + _y * _y);
+                _azimuth = Math.Atan2(_y, _x);
+            }
+            /// &lt;summary&gt;
+            /// Создает экземпляр структуры по заданному объекту типа SizeF
+            /// &lt;/summary&gt;
+            /// &lt;param name="size"&gt;
+            /// Объект структуры SizeF
+            /// &lt;/param&gt;
+            internal Vector2D(SizeF size)
+                // Здесь вызывается конструктор с параметрами x, y
+                : this(size.Width, size.Height)
+            {
+            }
+
+            // Операторы структры
+            /// &lt;summary&gt;
+            /// Оператор явного преобразования структуры типа Vector2D в структуру типа SizeF
+            /// &lt;/summary&gt;
+            /// &lt;param name="vector"&gt;
+            /// Данный вектор
+            /// &lt;/param&gt;
+            /// &lt;returns&gt;
+            /// Объект типа SizeF с теми же значениями x и y
+            /// &lt;/returns&gt;
+            public static explicit operator SizeF(Vector2D vector)
+            {
+                return new SizeF((float)vector.X, (float)vector.Y);
+            }
+            /// &lt;summary&gt;
+            /// Унарный оператор изменения направления вектора на обратное
+            /// &lt;/summary&gt;
+            /// &lt;param name="vector"&gt;
+            /// Данный вектор
+            /// &lt;/param&gt;
+            /// &lt;returns&gt;
+            /// Вектор, направленный в противоположную сторону
+            /// &lt;/returns&gt;
+            public static Vector2D operator -(Vector2D vector)
+            {
+                return new Vector2D(-vector.X, -vector.Y);
+            }
+            /// &lt;summary&gt;
+            /// Оператор вычитания двух векторов
+            /// &lt;/summary&gt;
+            /// &lt;param name="v1"&gt;
+            /// Исходный вектор
+            /// &lt;/param&gt;
+            /// &lt;param name="v2"&gt;
+            /// Вычитаемый вектор
+            /// &lt;/param&gt;
+            /// &lt;returns&gt;
+            /// Результирующий вектор
+            /// &lt;/returns&gt;
+            public static Vector2D operator -(Vector2D v1, Vector2D v2)
+            {
+                return v1 + (-v2);
+            }
+            /// &lt;summary&gt;
+            /// Оператор сложения двух объектов структуры (двух векторов)
+            /// &lt;/summary&gt;
+            /// &lt;param name="v1"&gt;
+            /// Первое слагаемое
+            /// &lt;/param&gt;
+            /// &lt;param name="v2"&gt;
+            /// Второе слагаеиое
+            /// &lt;/param&gt;
+            /// &lt;returns&gt;
+            /// Результирующий вектор
+            /// &lt;/returns&gt;
+            public static Vector2D operator +(Vector2D v1, Vector2D v2)
+            {
+                return new Vector2D(v1.X + v2.X, v1.Y + v2.Y);
+            }
+            /// &lt;summary&gt;
+            /// Оператор умножения вектора на число
+            /// &lt;/summary&gt;
+            /// &lt;param name="a"&gt;
+            /// Число - множитель
+            /// &lt;/param&gt;
+            /// &lt;param name="v"&gt;
+            /// Вектор - множитель
+            /// &lt;/param&gt;
+            /// &lt;returns&gt;
+            /// Вектор - результат
+            /// &lt;/returns&gt;
+            public static Vector2D operator *(double a, Vector2D v)
+            {
+                return new Vector2D(v.X * a, v.Y * a);
+            }
+            /// &lt;summary&gt;
+            /// Оператор умножения вектора на скаляр справа
+            /// &lt;/summary&gt;
+            /// &lt;param name="v"&gt;&lt;/param&gt;
+            /// &lt;param name="a"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public static Vector2D operator *(Vector2D v, double a)
+            {
+                return a * v;
+            }
+            /// &lt;summary&gt;
+            /// Оператор деления вектора на скаляр
+            /// &lt;/summary&gt;
+            /// &lt;param name="v"&gt;&lt;/param&gt;
+            /// &lt;param name="a"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public static Vector2D operator /(Vector2D v, double a)
+            {
+                return v * (1.0 / a);
+            }
+            /// &lt;summary&gt;
+            /// Оператор скалярного умножения векторов
+            /// &lt;/summary&gt;
+            /// &lt;param name="v1"&gt;
+            /// Первый множитель
+            /// &lt;/param&gt;
+            /// &lt;param name="v2"&gt;
+            /// Второй множитель
+            /// &lt;/param&gt;
+            /// &lt;returns&gt;
+            /// Результат скалярного произведения 
+            /// &lt;/returns&gt;
+            public static double operator *(Vector2D v1, Vector2D v2)
+            {
+                return v1.X * v2.X + v1.Y * v2.Y;
+            }
+        }
+        #region Particle parameters
+        /// &lt;summary&gt;
+        /// Хранит радиус частицы в пикселях
+        /// &lt;/summary&gt;
+        const int _pRadius = 10;
+        /// &lt;summary&gt;
+        /// Хранит центральный цвет частицы
+        /// &lt;/summary&gt;
+        Color _pStartColor = Color.Yellow;
+        /// &lt;summary&gt;
+        /// Хранит цвет изображения контура частицы
+        /// &lt;/summary&gt;
+        Color[] _pEndColors = { Color.Black };
+        /// &lt;summary&gt;
+        /// Хранит прямоугольник изображения частицы в пикселях
+        /// &lt;/summary&gt;
+        Rectangle _pRect = new Rectangle(new Point(), new Size(2 * _pRadius, 2 * _pRadius));
+        /// &lt;summary&gt;
+        /// Хранит вектор левого верхнего угла прямоугольника частицы по отношению к ее центру в пикселях
+        /// &lt;/summary&gt;
+        Size _ltOffset = new Size(-_pRadius, -_pRadius);
+        /// &lt;summary&gt;
+        /// Хранит текущее положение частицы в физических координатах
+        /// &lt;/summary&gt;
+        Vector2D _Pos = new Vector2D(.5, .5);
+        /// &lt;summary&gt;
+        /// Хранит текущую скорость частицы
+        /// &lt;/summary&gt;
+        Vector2D _V = new Vector2D();
+        /// &lt;summary&gt;
+        /// Хранит максимальное значение модуля скорости, используемое как масштабный коэффициент
+        /// при определении альфа-компоненты цвета частицы
+        /// &lt;/summary&gt;
+        double _vModMax = .2 * Math.Sqrt(2 * _intConst);
+        /// &lt;summary&gt;
+        /// Хранит текущее положение частицы в пикселях
+        /// &lt;/summary&gt;
+        Point curPPos;
+#if defState
+        /// &lt;summary&gt;
+        /// Хранит текущее состояние движения частицы
+        /// &lt;/summary&gt;
+        ParticleState _pState;
+#endif
+        #endregion
+        #region Field parameters
+        /// &lt;summary&gt;
+        /// Хранит текущее время
+        /// &lt;/summary&gt;
+        double _time;
+        /// &lt;summary&gt;
+        /// Хранит константу взаимодействия
+        /// &lt;/summary&gt;
+        const double _intConst = .003;
+        /// &lt;summary&gt;
+        /// Хранит граничные значения энергии
+        /// &lt;/summary&gt;
+        double _eMin = -_intConst, _eMax = _intConst;
+        /// &lt;summary&gt;
+        /// Хранит частоту колебаний поля
+        /// &lt;/summary&gt;
+        double _nu;
+        /// &lt;summary&gt;
+        /// Хранит коэффициент прозрачности изображения градиентного фона
+        /// &lt;/summary&gt;
+        int _alphaBlend = 240;
+        /// &lt;summary&gt;
+        /// Хранит начальный цвет градиентного фона
+        /// &lt;/summary&gt;
+        Color _startColorGrad = Color.Black;
+        /// &lt;summary&gt;
+        /// Хранит конечный цвет градиентного фона
+        /// &lt;/summary&gt;
+        Color _endColorGrad = Color.White;
+        /// &lt;summary&gt;
+        /// Хранит текущее окно изображения области изменения потенциала в физических координатах
+        /// &lt;/summary&gt;
+        RectangleF _window = new RectangleF(0, 0, 1, 1);
+        #endregion
+        #region Ctr, Load, Resize &amp; Close events handlers
+        /// &lt;summary&gt;
+        /// Конструктор формы. Инициализирует свойства объектов формы
+        /// &lt;/summary&gt;
+        public mainForm()
+        {
+            InitializeComponent();
+            // Подключаются обработчики клавиатуры
+            (pictureBox1 as Control).KeyDown += new KeyEventHandler(mainForm_KeyDown);
+            (pictureBox1 as Control).KeyUp += new KeyEventHandler(mainForm_KeyUp);
+            // Подключается обработчик колесика мышки
+            if (SystemInformation.MouseWheelPresent)
+            {
+                pictureBox1.MouseWheel += new MouseEventHandler(pictureBox1_MouseWheel);
+                panelGL.MouseWheel += new MouseEventHandler(panelGL_MouseWheel);
+            }
+#if intgr
+            _mechSyst = new MechSystem((ushort)2,
+                        delegate(ushort i, double time, double[] y) { return y[2 * i + 1]; },
+                        fp, typeof(LWDoPri5));
+#endif
+            // Установка частоты колебаний поля по умолчанию в nuBox
+            nuBox.Text = _nu.ToString("f");
+            // Состояние кнопки трассировки
+            trBtn.Checked = true;
+            // Состояние режима трассировки
+            point_pixel_Mode.Checked = true;
+#if defState
+            _pState.OnStateChange += new onStateChange(_pState_OnStateChange);
+            _pState.Pos = _Pos;
+            _pState.V = _V;
+#else
+            // Инициализируется текст в метке строки статуса с состоянием частицы
+            RefreshStatusLabel();
+
+#endif
+#if _3D
+            Init3DPort();
+#else
+            _3DItem.Enabled = false;
+#endif
+#if unsizable
+            // Инициализируется стиль формы
+            FormBorderStyle = FormBorderStyle.None;
+            // Инициализация размеров формы
+            // Окно занимает всю область экрана 
+            // В обработчике события Resize центральной панели контейнера 
+            // инициализируются размеры pictureBox.
+            Bounds = Screen.PrimaryScreen.Bounds;
+#else
+            // Устанавливает размеры панелей на панели контента
+            ResetPanelsSize();
+#endif
+        }
+        /// &lt;summary&gt;
+        /// Устанавливает размеры и положение pictureBox и pmChart
+        /// &lt;/summary&gt;
+        void ResetPanelsSize()
+        {
+            // Определяются высота и ширина панели, которой принадлежит pictureBox1.
+            // Минимальная из этих величин является стороной квадрата.
+            int h = toolStripContainer1.ContentPanel.ClientSize.Height,
+                w = toolStripContainer1.ContentPanel.ClientSize.Width,
+                side = h &lt; w ? h : w; // Или side=Math.Min(h,w);
+            // Границы pictureBox являются квадратом с центром в центре панели и стороной side
+            pictureBox1.Bounds = panelGL.Bounds = pmChart.Bounds =
+                new Rectangle(new Point((w - side) / 2, (h - side) / 2), new Size(side, side));
+        }
+#if !defState
+        /// &lt;summary&gt;
+        /// Обновляет содержание метки в строке статуса с указанием текущего состояния движения частицы
+        /// &lt;/summary&gt;
+        void RefreshStatusLabel()
+        {
+            stLabelP.Text =
+               String.Format(" point:time={0:f};X={1:f};Y={2:f};Vx={3:f};Vy={4:f};Energy={5:f4}",
+               _time, _Pos.X, _Pos.Y, _V.X, _V.Y, Energy(_V, _Pos, _time));
+        }
+#endif
+        /// &lt;summary&gt;
+        /// Выполняет действия при изменении размеров центральной панели (ContentPanel) контейнера toolStripContainer.
+        /// &lt;/summary&gt;
+        /// &lt;param name="sender"&gt;
+        /// Объект, содержащий событие изменения размеров и посылающий сообщение о его наступлении
+        /// &lt;/param&gt;
+        /// &lt;param name="e"&gt;
+        /// Объект класса для переноса информации о событии. 
+        /// В данном событии используется базовый класс EventArgs, который не содержит данных о событии. 
+        /// &lt;/param&gt;
+        private void toolStripContainer1_ContentPanel_Resize(object sender, EventArgs e)
+        {
+            ResetPanelsSize();
+        }
+        /// &lt;summary&gt;
+        /// Закрывает главное окно приложения
+        /// &lt;/summary&gt;
+        /// &lt;param name="sender"&gt;&lt;/param&gt;
+        /// &lt;param name="e"&gt;&lt;/param&gt;
+        private void closeButton_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+        /// &lt;summary&gt;
+        /// Освобождает порт OpenGL
+        /// &lt;/summary&gt;
+        /// &lt;param name="sender"&gt;&lt;/param&gt;
+        /// &lt;param name="e"&gt;&lt;/param&gt;
+        private void mainForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            _motionState = MotionState.stop;
+#if _3D
+            _port.Dispose();
+#endif
+        }
+        #endregion
+        #region Menu Strip Handlers
+        private void _2DItem_Click(object sender, EventArgs e)
+        {
+            pmChart.Visible = panelGL.Visible = false;
+            refreshButton.Enabled = trModeButton.Enabled = trBtn.Checked;
+            trBtn.Enabled = pictureBox1.Visible = true;
+        }
+        private void chartItem_Click(object sender, EventArgs e)
+        {
+            refreshButton.Enabled = trBtn.Enabled = trModeButton.Enabled =
+            pictureBox1.Visible = panelGL.Visible = false;
+            pmChart.Visible = true;
+        }
+        private void nuBox_Click(object sender, EventArgs e)
+        {
+            // Счет останаливается
+            SetMotionState(MotionState.stop);
+            // Изображение обновляется
+            pictureBox1.Refresh();
+        }
+        private void nuBox_MouseLeave(object sender, EventArgs e)
+        {
+            // Вводится значение частоты 
+            _nu = Double.Parse(nuBox.Text);
+        }
+        private void helpItem_DropDownItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+            using (helpForm hf = new helpForm())
+            {
+                hf.itemClickedName = e.ClickedItem.Name;
+                hf.ShowDialog();
+            }
+        }
+        #endregion
+        #region Context Menu Handlers
+        private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
+        {
+            e.Cancel = _motionState != MotionState.stop || !_pRect.IntersectsWith(
+                new Rectangle(pictureBox1.PointToClient(Cursor.Position), new Size(1, 1)));
+            if (!e.Cancel)
+                // Текущее значение модуля скорости помещается в vModBox контекстного меню
+                vModBox.Text = _V.Mod.ToString("f");
+        }
+        private void vModBox_MouseLeave(object sender, EventArgs e)
+        {
+            // Устанавливает значение модуля скорости из vModBox
+            Set_vMod();
+            // Закрывает контекстное меню
+            cntxtMenu.Close();
+            // Меняет изображение частицы
+            Update_pbParticleImage(false);
+        }
+        /// &lt;summary&gt;
+        /// Оценивает соответствие введенной строки символов в vMobBox требуемому типу числа
+        /// &lt;/summary&gt;
+        void Set_vMod()
+        {
+            double temp = Double.NaN;
+            try
+            {//Делается попытка преобразовать строку в вещественное число
+                temp = Double.Parse(vModBox.Text);
+            }
+            catch //попытка неудачная
+            {
+                ErrorReaction("Набранная строка не является вещественным числом!!" +
+                    "(Возможно,поставлена точка,вместо десятичной запятой?!)");
+                return;
+            }
+            //Специальное условие,диктуемое допустимыми пределами значений параметра
+            if (temp &lt; 0)
+            {
+                ErrorReaction("Модуль скорости не должен быть отрицательным!!");
+                return;
+            }
+            _V.Mod = temp;
+#if defState
+            _pState.V = _V;
+#else
+            // Состояние частицы отображется на строке статуса
+            RefreshStatusLabel();
+#endif
+        }
+        /// &lt;summary&gt;
+        /// Сообщает об ошибочном вводе через редакционное окошко
+        /// &lt;/summary&gt;
+        /// &lt;param name="message"&gt;
+        /// Строка сообщения об ошибке
+        /// &lt;/param&gt;
+        void ErrorReaction(string message)
+        {
+            // Выводится сообщение об ошибке    
+            MessageBox.Show(message,
+                System.IO.Path.GetFileName(Application.ExecutablePath),
+                MessageBoxButtons.OK, MessageBoxIcon.Warning,
+                MessageBoxDefaultButton.Button1);
+            vModBox.Text = _V.Mod.ToString("f");
+        }
+        #endregion
+        #region Left Panel Items Handlers
+        private void break_Click(object sender, EventArgs e)
+        {
+            SetMotionState(_motionState == MotionState.run ? MotionState.pause : MotionState.run);
+        }
+        private void startButton_Click(object sender, EventArgs e)
+        {
+            SetMotionState(_motionState == MotionState.stop ? MotionState.run : MotionState.stop);
+        }
+        private void refreshButton_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Refresh();
+        }
+        private void trBtn_Click(object sender, EventArgs e)
+        {
+            refreshButton.Enabled = trModeButton.Enabled = trBtn.Checked;
+            pictureBox1.Refresh();
+        }
+        private void trModeButton_DropDownItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+            pictureBox1.Refresh();
+        }
+        #endregion
+        #region Mech System Methods
+#if defState
+        double Energy(ParticleState state)
+        {
+            return .5 * state.V * state.V + PotentialEnergy(state.Pos, state.Time);
+        }
+#else
+        /// &lt;summary&gt;
+        /// Вычисляет полную энергию частицы
+        /// &lt;/summary&gt;
+        /// &lt;param name="velocity"&gt;
+        /// Скорость
+        /// &lt;/param&gt;
+        /// &lt;param name="pos"&gt;
+        /// Положение
+        /// &lt;/param&gt;
+        /// &lt;param name="time"&gt;
+        /// Время
+        /// &lt;/param&gt;
+        /// &lt;returns&gt;
+        /// Полная энергия
+        /// &lt;/returns&gt;
+        double Energy(Vector2D velocity, Vector2D pos, double time)
+        {
+            return .5 * velocity * velocity + PotentialEnergy(pos, time);
+        }
+#endif
+        /// &lt;summary&gt;
+        /// Вычисляет потенциальную энергию частицы
+        /// &lt;/summary&gt;
+        /// &lt;param name="pos"&gt;
+        /// Точка, в которой вычисляется потенциальная энергия частицы
+        /// &lt;/param&gt;
+        /// &lt;param name="time"&gt;
+        /// Момент времени
+        /// &lt;/param&gt;
+        /// &lt;returns&gt;
+        /// Значение потенциальной энергии
+        /// &lt;/returns&gt;
+        double PotentialEnergy(Vector2D pos, double time)
+        {
+            return _intConst *
+                Math.Cos(2 * Math.PI * _nu * time) *
+                Math.Sin(2 * Math.PI * pos.X) *
+                //(pos.X - _nu * time)) *
+                Math.Cos(2 * Math.PI * pos.Y);
+            //(pos.Y - _nu * time));
+        }
+        /// &lt;summary&gt;
+        /// Вычисляет силу
+        /// &lt;/summary&gt;
+        /// &lt;param name="pos"&gt;
+        /// Точка, в которой вычисляется сила
+        /// &lt;/param&gt;
+        /// &lt;param name="time"&gt;
+        /// Момент времени
+        /// &lt;/param&gt;
+        /// &lt;returns&gt;
+        /// Вектор силы
+        /// &lt;/returns&gt;
+        Vector2D Force(Vector2D pos, double time)
+        {
+            double _2PI = 2 * Math.PI,
+                c = _2PI * _intConst,
+                xPhase = _2PI * pos.X,
+                //(pos.X - _nu * time),
+                yPhase = _2PI * pos.Y;
+            //(pos.Y - _nu * time);
+            return
+                c * Math.Cos(_2PI * _nu * time) * new Vector2D(
+                    -Math.Cos(xPhase) * Math.Cos(yPhase), Math.Sin(xPhase) * Math.Sin(yPhase));
+        }
+#if intgr
+        /// &lt;summary&gt;
+        /// Хранит ссылку на объект механической системы
+        /// &lt;/summary&gt;
+        IMechSystem _mechSyst;
+        /// &lt;summary&gt;
+        /// Хранит ссылку на массив начального состояния движения частицы
+        /// &lt;/summary&gt;
+        QP[] _startState = new QP[2];
+        double fp(ushort i, double time, double[] y)
+        {
+            return
+                i == 0 ? Force(new Vector2D(y[0], y[2]), time).X : Force(new Vector2D(y[0], y[2]), time).Y;
+        }
+#endif
+        #endregion
+        #region Picture Box Key Events Handlers
+        void mainForm_KeyUp(object sender, KeyEventArgs e)
+        {
+            _isCtrlDown = false;
+        }
+        void mainForm_KeyDown(object sender, KeyEventArgs e)
+        {
+            _isCtrlDown = e.Control;
+            if (e.KeyCode == Keys.Enter)
+                SetMotionState(_motionState == MotionState.stop || _motionState == MotionState.pause ?
+                    MotionState.run : MotionState.pause);
+        }
+        #endregion
+        #region Picture Box Resize &amp; Paint Handlers
+        const int _alphaMin = 50;
+        /// &lt;summary&gt;
+        /// Хранит ширину (высоту) клиентской области pictureBox
+        /// &lt;/summary&gt;
+        int _pbWidth, _pbHeight;
+        private void pictureBox1_Resize(object sender, EventArgs e)
+        {
+            // Сохраняются высота и ширина прямоугольника pictureBox
+            _pbHeight = pictureBox1.ClientSize.Height;
+            _pbWidth = pictureBox1.ClientSize.Width;
+            // Текущее положение частицы в пикселях
+            curPPos = Point.Round(new PointF(
+                    ((float)_Pos.X - _window.Left) / _window.Width * _pbWidth,
+                    ((float)_Pos.Y - _window.Top) / _window.Height * _pbHeight));
+            // Определяется верхний левый угол прямоугольника частицы
+            _pRect.Location = curPPos + _ltOffset;
+            // Изображение обновляется
+            pictureBox1.Refresh();
+        }
+        /// &lt;summary&gt;
+        /// Прямоугольник размером в один пиксел, используемый для изображения следа частицы
+        /// &lt;/summary&gt;
+        Rectangle _pxlRect = new Rectangle(new Point(), new Size(1, 1));
+        private void pictureBox1_Paint(object sender, PaintEventArgs e)
+        {
+            #region Hatch Background
+            using (HatchBrush hb = new HatchBrush(HatchStyle.Cross, Color.White))
+                e.Graphics.FillRectangle(hb, pictureBox1.ClientRectangle);
+            #endregion
+            #region Gradient Background
+            // Создается объект градиентного фона (объект класса Blend) с заданным числом "положений" и "факторов",
+            // равным числу пикселей по высоте прямоугольника _pbHeight (высота клиентской области pictureBox1).
+            Blend bckgrBlend = new Blend(_pbHeight);
+
+            // Определяется массив "положении" пикселей в вертикальном направлении сверху вниз 
+            // в в отношении к полной высоте.
+            float[] pstns = new float[_pbHeight];
+            for (int row = 0; row &lt; _pbHeight; row++)
+                pstns[row] = (float)row / (_pbHeight - 1);
+            // Свойству Positions объекта bkgrBlend передается ссылка на массив положений
+            bckgrBlend.Positions = pstns;
+            // Массив "факторов" градиентного фона будет использоваться для определения
+            // количественного состава цвета пикселя в данном положении
+            float[] fctrs = new float[_pbHeight];
+            // Хранит текущие положения точек-пикселей в относительных координатах
+            Vector2D curPos = new Vector2D();
+            // Хранит текущее значение потенциала
+            double curU;
+            // Хранит текущую вертикальную полосу шириной в один пиксель, покрываемой градиентной кистью 
+            Rectangle blndRect = new Rectangle(0, 0, 1, _pbHeight);
+            // Цикл, пробегающий горизонтальные координаты всех пикселей слева направо.
+            for (int column = 0; column &lt; _pbWidth; column++)
+            {
+                // Вычисляется текущая горизонтальная координата полоски
+                curPos.X = _window.Left + _window.Width * column / _pbWidth;
+                // Определяются факторы для каждой вертикальной полоски в зависимости от координаты y
+                // по значениям функции потенциала U(x,y).
+                // Эти факторы равномерно модулируют цвет фона от стартового значения цвета
+                // при низких энергиях до конечного цвета при высоких энергиях.
+                // Таким образом создается образ "потенциального рельефа".
+                for (int row = 0; row &lt; _pbHeight; row++)
+                {
+                    // Определяется текущая вертикальная координата
+                    curPos.Y = _window.Top + _window.Height * pstns[row];
+                    // Вычисляется значение потенциала в точке pos в момент времени _time
+                    curU = PotentialEnergy(curPos, _time);
+                    // Если потенциал не ограничен, то в изображении ограничиваем
+                    // его значениями (_eMin; _eMax)
+                    fctrs[row] = curU &gt; _eMax ? 1 : curU &lt; _eMin ? 0 :
+                        (float)((curU - _eMin) / (_eMax - _eMin));
+                }
+                // Найденные факторы смешивания передаются свойству объекта смешивания bkgrBlend
+                bckgrBlend.Factors = fctrs;
+
+                // Создается и используется экземпляр объекта кисти с линейным
+                // градиентом цвета. Указываются стартовый и конечный цвета, а также 
+                // _alphaBlend-компонента прозрачности для смешивания с уже существующим фоном.
+                using (LinearGradientBrush blndBrush = new LinearGradientBrush(
+                    blndRect, // Текущий закрашиваемый вертикальный пр-к шириной в один пиксель
+                    Color.FromArgb(_alphaBlend, _startColorGrad),// Цвет самой низкой энергии
+                    Color.FromArgb(_alphaBlend, _endColorGrad),  // Цвет самой высокой энергии
+                    LinearGradientMode.Vertical // Режим смешивания вертикальный
+                    ))
+                {
+                    // Свойству Blend кисти присваивается ссылка на объект bckgrBlend.
+                    blndBrush.Blend = bckgrBlend;
+                    // Отрисовка прямоугольника
+                    e.Graphics.FillRectangle(blndBrush, blndRect);
+                }
+                // Прямоугольник, в котором изображается градиентный фон, сдвигается на единицу вправо
+                // на каждом шаге цикла по горизонтальным колонкам.
+                blndRect.Offset(1, 0);
+            }
+            #endregion
+            #region Particle State Painting
+            if (_motionState != MotionState.run || !trBtn.Checked || point_pixel_Mode.Checked)
+            {
+                // Зависимость "слоя" от величины скорости 
+                // (альфа-компонента цвета модулируется обратным модулем скорости)
+                int
+                    alpha = (int)(255 / (1 + _V.Mod / _vModMax));
+                if (alpha &lt; _alphaMin)
+                    alpha = _alphaMin;
+                _pStartColor = Color.FromArgb(alpha, _pStartColor);
+                _pEndColors[0] = Color.FromArgb(alpha, _pEndColors[0]);
+
+                // Частица изображается контурной кистью.
+                // Для этого создается объект класса GraphicsPath - графический контур
+                using (GraphicsPath path = new GraphicsPath())
+                {
+                    // К контуру добавляется эллипс, изображающий частицу
+                    path.AddEllipse(_pRect);
+                    // Определяется градиентная контурная кисть
+                    using (PathGradientBrush pthGrBrush = new PathGradientBrush(path))
+                    {
+                        // Задаются начальный и конечный цвета кисти
+                        pthGrBrush.CenterColor = _pStartColor;
+                        pthGrBrush.SurroundColors = _pEndColors;
+                        // Кистью заполняется контур, состоящий из одного эллипса
+                        e.Graphics.FillPath(pthGrBrush, path);
+                    }
+                }
+                // Изображение вектора скорости
+                if (_V.Mod != 0)
+                    using (Pen pen = new Pen(Color.Red))
+                    {
+                        pen.EndCap = LineCap.ArrowAnchor;
+                        e.Graphics.DrawLine(pen, curPPos,
+                            curPPos + Size.Round(new SizeF(
+                                (_pRadius - .5f) * (float)(_V.X / _V.Mod),
+                                (_pRadius - .5f) * (float)(_V.Y / _V.Mod))));
+                    }
+            }
+            if (_motionState == MotionState.run &amp;&amp; !point_pixel_Mode.Checked &amp;&amp; trBtn.Checked)
+            {
+                _pxlRect.Location = curPPos;
+                using (SolidBrush sb = new SolidBrush(Color.Yellow))
+                    e.Graphics.FillRectangle(sb, _pxlRect);
+            }
+
+            #endregion
+        }
+        #endregion
+        #region PictureBox Mouse Events Handlers
+        /// &lt;summary&gt;
+        /// Хранит квант изменения масштаба окна при повороте колесика мышки
+        /// &lt;/summary&gt;
+        const float _wheelScale = .001f;
+        /// &lt;summary&gt;
+        /// Хранит указание, нажата ли клавиша Ctrl
+        /// &lt;/summary&gt;
+        bool _isCtrlDown;
+        void pictureBox1_MouseWheel(object sender, MouseEventArgs e)
+        {
+            if (!_isCtrlDown)
+            {
+                if (_motionState == MotionState.stop)
+                {
+                    if (_V.Mod != 0 &amp;&amp;
+                        _pRect.IntersectsWith(new Rectangle(e.Location, new Size(1, 1))))
+                    {
+                        // Изменение направления скорости
+                        _V.Azimuth -= Math.PI / 180 * e.Delta / 40;
+#if defState
+                        _pState.V = _V;
+#else
+                        // Состояние частицы отображется на строке статуса
+                        RefreshStatusLabel();
+#endif
+                        Update_pbParticleImage(false);
+                    }
+                    else
+                        if (_nu != 0)
+                        {
+                            // Изменение времени
+                            _time += e.Delta * .001;
+#if defState
+                            _pState.Time = _time;
+#else
+                            // Состояние частицы отображется на строке статуса
+                            RefreshStatusLabel();
+#endif
+                            Update_pbParticleImage(true);
+                        }
+                }
+                return;
+            }
+            // Изменение масштабов физического окна по отношению к окну pictureBox
+            // происходит инфляция прямоугольника
+            _window.Inflate(new SizeF(_window.Width * e.Delta * _wheelScale,
+                _window.Height * e.Delta * _wheelScale));
+            // Изображение обновляется
+            pictureBox1.Refresh();
+#if _3D
+            _isFListCreated = false;
+#endif
+        }
+        private void pictureBox1_MouseEnter(object sender, EventArgs e)
+        {
+            // Фокус переносится на панель pictureBox (необходимо для обработки события от колесика мышки)
+            pictureBox1.Focus();
+            // Изображается метка в строке статуса со значениями текущих координат точки, 
+            // над которой находится курсор
+            stLabelXY.Visible = true;
+        }
+        private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
+        {
+            // Возобновляется текст строки статуса с координатами точки, над которой находится курсор
+            stLabelXY.Text = String.Format("X={0};Y={1}",
+                _window.Left + _window.Width * e.X / _pbWidth,
+                _window.Top + _window.Height * e.Y / _pbHeight);
+            // Если не нажата левая кнопка или не нажата клавиша Control, то выполнение прекращается
+            if (e.Button != MouseButtons.Left || !_isCtrlDown) return;
+            // Смещение физического окна по отношению к окну pictureBox
+            // Сохраняется текущее состояние таймера
+            //bool timerEnbld = timer1.Enabled;
+            // Таймер отключается
+            //timer1.Enabled = false;
+            // Если нажата левая кнопка и клавиша Control, то смещается окно
+            _window.Offset(
+                new PointF(
+                    _window.Width * (_cursorLocation.X - e.X) / _pbWidth,
+                    _window.Height * (_cursorLocation.Y - e.Y) / _pbHeight));
+#if _3D
+            _isFListCreated = false;
+#endif
+            // Обновляется содержание изображения
+            pictureBox1.Refresh();
+            // Обновляется значение точки положения курсора
+            _cursorLocation = e.Location;
+            // Восстанавливается сохранившееся состояние таймера
+            //timer1.Enabled = timerEnbld;
+        }
+        /// &lt;summary&gt;
+        /// Хранит положение курсора при нажатии левой кнопки мышки. Используется при смещении прямоугольника окна.
+        /// &lt;/summary&gt;
+        Point _cursorLocation = new Point();
+        private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button != MouseButtons.Left) return;
+            // новое начальное положение, выбираемое во время счета или в состоянии stop
+            if (_motionState != MotionState.pause &amp;&amp; !_isCtrlDown)
+            {
+                SetMotionState(MotionState.stop);
+                // Обновляется изображение частицы на панели
+                pictureBox1.Invalidate(_pRect);
+                // начальное положение частицы определяется в объектных координатах по оконным e.X, e.Y
+                _Pos.X = _window.Left + _window.Width * e.X / _pbWidth;
+                _Pos.Y = _window.Top + _window.Height * e.Y / _pbHeight;
+#if defState
+                    _pState.Pos = _Pos;
+#else
+                // Состояние частицы отображется на строке статуса
+                RefreshStatusLabel();
+#endif
+                // Прямоугольник частицы меняет свое положение
+                _pRect.Location = e.Location + _ltOffset;
+                Update_pbParticleImage(false);
+            }
+            // Сохраняется текущее положение курсора, используемое в алгоритме обработчика MouseMove
+            _cursorLocation = e.Location;
+        }
+        private void pictureBox1_MouseLeave(object sender, EventArgs e)
+        {
+            // Метка в строке статуса со значениями текущих координат точки, 
+            // над которой находится курсор, исчезает
+            stLabelXY.Visible = false;
+        }
+        #endregion
+        #region Operating Properties &amp; Methods
+        /// &lt;summary&gt;
+        /// Тип состояния движения
+        /// &lt;/summary&gt;
+        enum MotionState { stop, pause, run };
+        /// &lt;summary&gt;
+        /// Хранит текущее состояние выполнения программы.
+        /// &lt;/summary&gt;
+        MotionState _motionState;
+        /// &lt;summary&gt;
+        /// Устанавливает состояние выполнения программы.
+        /// &lt;/summary&gt;
+        /// &lt;param name="state"&gt;
+        /// Состояние выполнения программы.
+        /// &lt;/param&gt;
+        void SetMotionState(MotionState state)
+        {
+#if intgr
+            bool isPrevStop = motionState == MotionState.stop;
+#endif
+            _motionState = state;
+            switch (state)
+            {
+                case MotionState.run:
+                    if (pictureBox1.Visible &amp;&amp; !point_pixel_Mode.Checked)
+                        pictureBox1.Invalidate(_pRect);
+                    startButton.Enabled = breakButton.Enabled = true;
+                    nuBox.Enabled = false;
+                    startButton.Text = "Stop";
+                    breakButton.Text = "Break";
+#if intgr
+                    if (isPrevStop) Restart();
+#endif
+                    timer1.Enabled = true;
+                    break;
+                case MotionState.pause:
+                    //timer1.Enabled = 
+                    startButton.Enabled = false;
+                    breakButton.Text = "GoOn";
+                    Update_pbParticleImage(false);
+                    break;
+                case MotionState.stop:
+                    //timer1.Enabled = 
+                    breakButton.Enabled = false;
+                    nuBox.Enabled = true;
+                    startButton.Text = "Start";
+                    _V.X = _V.Y = 0; _time = 0;
+#if defState
+                    _pState.V = _V;
+                    _pState.Time = _time;
+#else
+                    // Состояние частицы отображется на строке статуса
+                    RefreshStatusLabel();
+#endif
+                    foreach (Series s in pmChart.Series)
+                        s.Clear();
+                    Update_pbParticleImage(_nu != 0);
+#if _3D
+                    _isEListCreated = false;
+#endif
+                    break;
+            }
+        }
+        /// &lt;summary&gt;
+        /// Изменяет изображение частицы в pictureBox
+        /// &lt;/summary&gt;
+        /// &lt;param name="refresh"&gt;
+        /// Если значение true, то изменяется весь фон вместе с изображением частицы.
+        /// В противном случае - только прямоугольник частицы.
+        /// &lt;/param&gt;
+        void Update_pbParticleImage(bool refresh)
+        {
+            if (!pictureBox1.Visible) return;
+            if (refresh)
+                pictureBox1.Refresh();
+            else
+            {
+                // Обновляется изображение частицы на pictureBox
+                pictureBox1.Invalidate(_pRect);
+                // Немедленное обновление 
+                pictureBox1.Update();
+            }
+        }
+#if intgr
+        /// &lt;summary&gt;
+        /// Готовит изображение к возобновлению движения частицы
+        /// &lt;/summary&gt;
+        void Restart()
+        {
+            _startState[0].q = _Pos.X;
+            _startState[0].p = _V.X;
+            _startState[1].q = _Pos.Y;
+            _startState[1].p = _V.Y;
+            _mechSyst.BeginFrom(_time, _startState);
+        }
+#endif
+#if defState
+        void _pState_OnStateChange()
+        {
+            stLabelP.Text =
+                String.Format(" point:time={0:f};X={1:f};Y={2:f};Vx={3:f};Vy={4:f};Energy={5:f4}",
+                _pState.Time, _pState.Pos.X, _pState.Pos.Y, _pState.V.X, _pState.V.Y,
+                Energy(_pState));
+        }
+#endif
+        #endregion
+        /// &lt;summary&gt;
+        /// Хранит шаг по времени между кадрами
+        /// &lt;/summary&gt;
+        const double _stepTime = 1;
+        /// &lt;summary&gt;
+        /// Хранит максимальное число точек в сериях pmChart
+        /// &lt;/summary&gt;
+        const int _seriesLengthMax = 1000;
+        /// &lt;summary&gt;
+        /// Определяет изменение состояния на каждом шаге цикла движения
+        /// &lt;/summary&gt;
+        void DoStep()
+        {
+            _time += _stepTime;
+#if intgr
+            _mechSyst.PropagateTo(_time);
+            _V.X = _mechSyst.State[0].p;
+            _V.Y = _mechSyst.State[1].p;
+            _Pos.X = _mechSyst.State[0].q;
+            _Pos.Y = _mechSyst.State[1].q;
+#else
+            // Определяется новая скорость частицы
+            _V += _stepTime * Force(_Pos, _time);
+            // Определяется новое положение
+            _Pos += _stepTime * _V;
+#endif
+#if defState
+            _pState.Time = _time;
+            _pState.V = _V;
+            _pState.Pos = _Pos;
+#else
+            // Состояние частицы отображется на строке статуса
+            RefreshStatusLabel();
+#endif
+            // Добавляются точки к графикам развертки
+            if (xSeries.Count &lt; _seriesLengthMax)
+            {
+                xSeries.Add(_time, _Pos.X);
+                ySeries.Add(_time, _Pos.Y);
+#if defState
+                eSeries.Add(_time, Energy(_pState));
+#else
+                eSeries.Add(_time, Energy(_V, _Pos, _time));
+#endif
+            }
+
+            // Если след не остается и поле стационарное, то прежнее положение частицы очищается
+            if (pictureBox1.Visible &amp;&amp; !trBtn.Checked &amp;&amp; _nu == 0)
+                pictureBox1.Invalidate(_pRect);
+
+            // Прямоугольник частицы меняет свое положение
+            _pRect.Location = (curPPos = Point.Round(new PointF(
+                    ((float)_Pos.X - _window.Left) / _window.Width * _pbWidth,
+                    ((float)_Pos.Y - _window.Top) / _window.Height * _pbHeight))) + _ltOffset;
+            // Изменяется изображение частицы
+            Update_pbParticleImage(_nu != 0);
+
+            // Если частица выходит за границы изображения, масштаб изображения уменьшается на 20%
+            while (!pictureBox1.ClientRectangle.IntersectsWith(_pRect))
+            {
+                // Инфляция окна в мировых координатах
+                _window.Inflate(new SizeF(.1f * _window.Width, .1f * _window.Height));
+                // Прямоугольник частицы меняет свое положение
+                _pRect.Location =
+                    Point.Round(new PointF(
+                        ((float)_Pos.X - _window.Left) / _window.Width * _pbWidth,
+                        ((float)_Pos.Y - _window.Top) / _window.Height * _pbHeight)) + _ltOffset;
+#if _3D
+                // Обнуляется флаг создания дисплейного списка поля
+                _isFListCreated = false;
+#endif
+                // Изображение на плоскости полностью обновляется
+                if (pictureBox1.Visible)
+                    pictureBox1.Refresh();
+            }
+#if _3D
+            if (panelGL.Visible)
+                RenderFrame();
+#endif
+        }
+        /// &lt;summary&gt;
+        /// Содержит цикл движения
+        /// &lt;/summary&gt;
+        void run()
+        {
+            // Цикл выполняется, пока тип движения есть run
+            while (_motionState == MotionState.run)
+            {
+                // Изменяется состояние частицы на один шаг
+                DoStep();
+                // Выполняются события приложения
+                Application.DoEvents();
+            }
+        }
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            // Таймер отключается 
+            timer1.Enabled = false;
+            // Запускается цикл движения
+            run();
+        }
+        #region panelGL Handlers
+        private void panelGL_Paint(object sender, PaintEventArgs e)
+        {
+#if _3D
+            RenderFrame();
+#endif
+        }
+        private void panelGL_SizeChanged(object sender, EventArgs e)
+        {
+#if _3D
+            if (null == _port) return;
+            gl.Viewport(0, 0, panelGL.ClientSize.Width, panelGL.ClientSize.Height);
+            InitProjection();
+            if (panelGL.Visible)
+                RenderFrame();
+#endif
+        }
+        private void panelGL_MouseEnter(object sender, EventArgs e)
+        {
+            panelGL.Focus();
+        }
+        private void panelGL_MouseDown(object sender, MouseEventArgs e)
+        {
+#if _3D
+            if (e.Button == MouseButtons.Left)
+                _3DCursorPos = e.Location;
+            if (e.Button == MouseButtons.Right)
+            {
+                _isLineView = !_isLineView;
+                RenderFrame();
+            }
+#endif
+        }
+        private void panelGL_MouseMove(object sender, MouseEventArgs e)
+        {
+#if _3D
+            // Если нажата левая кнопка и указатель находится в клиентском
+            // прямоугольнике панели, проводятся изменения параметров ракурса
+            // изображения - углов Teta и Fi, под которыми расположена камера (глаз)
+            if (e.Button == MouseButtons.Left &amp;&amp;
+                panelGL.ClientRectangle.Contains(e.Location))
+            {
+                _cameraFi += 2.0 * (e.X - _3DCursorPos.X) / panelGL.ClientSize.Width * Math.PI;
+                _cameraTeta += (-1.0 * (e.Y - _3DCursorPos.Y) / panelGL.ClientSize.Height) * Math.PI;
+                // Запоминается новое положение курсора
+                _3DCursorPos = e.Location;
+                // Вычисляются тригонометрические функции, используемые
+                // в командах OpenGL для перерисовки изображения
+                _cameraCosTeta = Math.Cos(_cameraTeta);
+                _cameraSinTeta = Math.Sin(_cameraTeta);
+                _cameraSinFi = Math.Sin(_cameraFi);
+                _cameraCosFi = Math.Cos(_cameraFi);
+                RenderFrame();  //Активизация перерисовки изображения
+            }
+#endif
+        }
+        void panelGL_MouseWheel(object sender, MouseEventArgs e)
+        {
+#if _3D
+            // происходит инфляция прямоугольника
+            _window.Inflate(new SizeF(_window.Width * e.Delta * _wheelScale,
+                _window.Height * e.Delta * _wheelScale));
+            _fStacks = (int)(_defFStacks * _window.Width);
+            _fSlices = (int)(_defFSlices * _window.Height);
+            _isFListCreated = false;
+            // Изображение обновляется
+            RenderFrame();
+#endif
+        }
+        #endregion
+        private void _3DItem_Click(object sender, EventArgs e)
+        {
+            refreshButton.Enabled = trBtn.Enabled = trModeButton.Enabled =
+            pictureBox1.Visible = pmChart.Visible = false;
+            panelGL.Visible = true;
+        }
+#if _3D
+        #region OpenGL fielfs
+        /// &lt;summary&gt;
+        /// Хранит множитель для определения масштаба энергии в отношении к единицам объектных координат
+        /// &lt;/summary&gt;
+        const float _eScale = 1.5f;
+        /// &lt;summary&gt;
+        /// Хранят числа точек разбиения частицы
+        /// &lt;/summary&gt;
+        const int
+            _pointStacks = 50, _pointSlices = _pointStacks,
+            _defFStacks = 200, _defFSlices = _defFStacks;
+        /// &lt;summary&gt;
+        /// Хранят числа точек разбиения поля при единичном масштабе
+        /// &lt;/summary&gt;
+        int _fStacks = _defFStacks, _fSlices = _defFSlices;
+        /// &lt;summary&gt;
+        /// Радиус сферы наблюдения
+        /// &lt;/summary&gt;
+        const float _radiusEye = .001f;
+        /// &lt;summary&gt;
+        /// Хранит ссылку на текущий порт вывода 3D-изображений
+        /// &lt;/summary&gt;
+        glPort _port;
+        /// &lt;summary&gt;
+        /// Хранит цвет фона - цвет очистки буфера цвета (темно-синий)
+        /// &lt;/summary&gt;
+        static Color _clearColor = Color.FromArgb(0, 0, 51);
+        /// &lt;summary&gt;
+        /// Хранит текущую ориентацию камеры вида по отношению к вертикальной оси.
+        /// Угол _cameraFi отсчитывается от вертикальной средней линии вправо 
+        /// до Pi на правой границе панели и влево до -Pi на левой границе.
+        /// &lt;/summary&gt;
+        double _cameraFi;
+        double _cameraSinFi, _cameraCosFi;
+        /// &lt;summary&gt;
+        /// Хранит текущую ориентацию камеры вида по отношению к горизонтальной оси.
+        /// Угол _cameraTeta отсчитывается от горизонтальной плоскости.
+        /// Вверх - положительный, вниз - отрицательный. Это широта.
+        /// _cameraTeta лежит в интервале -Pi/2;Pi/2.
+        /// &lt;/summary&gt;
+        double _cameraTeta;
+        double _cameraSinTeta, _cameraCosTeta;
+        /// &lt;summary&gt;
+        /// Хранит текущий радиус частицы в объектных координатах
+        /// &lt;/summary&gt;
+        float _3DpRadius = .03f;
+        /// &lt;summary&gt;
+        /// Хранит масштаб преобразования значений энергии в объектные координаты
+        /// &lt;/summary&gt;
+        float _3DeMax;
+        /// &lt;summary&gt;
+        /// Хранит текущее положение курсора после нажатия над панелью panelGL
+        /// &lt;/summary&gt;
+        Point _3DCursorPos = new Point();
+        /// &lt;summary&gt;
+        /// Хранит номер списка частицы
+        /// &lt;/summary&gt;
+        uint _pList;
+        /// &lt;summary&gt;
+        /// Хранит указание, создан ли дисплейный список частицы
+        /// &lt;/summary&gt;
+        bool _isPListCreated;
+        /// &lt;summary&gt;
+        /// Хранит номер дисплейного списка поля
+        /// &lt;/summary&gt;
+        uint _fList;
+        /// &lt;summary&gt;
+        /// Хранит указание, создан ли дисплейный список поля
+        /// &lt;/summary&gt;
+        bool _isFListCreated;
+        /// &lt;summary&gt;
+        /// Хранит номер дисплейного списка плоскости энергии
+        /// &lt;/summary&gt;
+        uint _eList;
+        /// &lt;summary&gt;
+        /// Хранит указание, создан ли дисплейный список плоскости энергии
+        /// &lt;/summary&gt;
+        bool _isEListCreated;
+        /// &lt;summary&gt;
+        /// Хранит цвет диффузного отражения эргодической плоскости.
+        /// &lt;/summary&gt;
+        float[]
+            _enrgDiffuseReflectanceColor = { 0, 1, .5f, .5f };
+        /// &lt;summary&gt;
+        /// Хранит цвет диффузного отражения поверхности поля (цвет по умолчанию) 
+        /// &lt;/summary&gt;
+        float[]
+            _fDiffuseReflectanceColor = { .8f, .8f, .8f, 1 };
+        /// &lt;summary&gt;
+        /// Хранит цвет диффузного отражения частицы 
+        /// &lt;/summary&gt;
+        float[]
+            _pDiffuseReflectanceColor = { .8f, .8f, 0, 1 };
+        /// &lt;summary&gt;
+        /// Keep trigonometry functions of current lune surface position angles
+        /// when drawing the sphere surface
+        /// &lt;/summary&gt;
+        float[]
+            sinfi = new float[_pointSlices + 1],
+            cosfi = new float[_pointSlices + 1],
+            sinteta = new float[_pointStacks],
+            costeta = new float[_pointStacks];
+        bool _isLineView;
+        #endregion
+        #region 3D View Methods
+        #region General rendering &amp; Initializing Methods
+        void Init3DPort()
+        {
+            // Инициализация тригонометрических функций для сферы (частицы) 
+            for (int slice = 0; slice &lt;= _pointSlices; slice++)
+            {
+                sinfi[slice] = (float)Math.Sin(2.0 * Math.PI * slice / _pointSlices);
+                cosfi[slice] = (float)Math.Cos(2.0 * Math.PI * slice / _pointSlices);
+            }
+            for (int stack = 0; stack &lt; _pointStacks; stack++)
+            {
+                sinteta[stack] = (float)Math.Sin(Math.PI * stack / _pointStacks);
+                costeta[stack] = (float)Math.Cos(Math.PI * stack / _pointStacks);
+            }
+            // Подсчет масштабного коэффициента перехода к объектным координатам
+            _3DeMax = _eScale * (float)Math.Max(Math.Abs(_eMax), Math.Abs(_eMin));
+            // Создание объекта класса glPort для вывода 3D-образов на панель glPanel
+            _port = new glPort(panelGL);
+            // Цвет фона панели glPanel
+            gl.ClearColor((float)_clearColor.R / 255, (float)_clearColor.G / 255,
+                (float)_clearColor.B / 255, 1);
+            // Устанавливает состояние команд OpenGL по умолчанию
+            gl.Enable(gl.DEPTH_TEST);
+
+            gl.Enable(gl.LIGHTING);
+            gl.Enable(gl.LIGHT0);
+            gl.Enable(gl.BLEND);
+            gl.BlendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA);
+            gl.LightModel(gl.LIGHT_MODEL_TWO_SIDE, 1);
+            gl.LightModel(gl.LIGHT_MODEL_LOCAL_VIEWER, 1);
+            gl.Enable(gl.POINT_SMOOTH);
+            gl.Enable(gl.NORMALIZE);
+            gl.Enable(gl.CULL_FACE);
+            gl.Material(gl.FRONT_AND_BACK, gl.DIFFUSE, _fDiffuseReflectanceColor);
+
+            InitializeSceneViewParameters();
+        }
+        /// &lt;summary&gt;
+        /// Инициализирует параметры исходного раскурса изображения
+        /// &lt;/summary&gt;
+        void InitializeSceneViewParameters()
+        {
+            // Положение камеры - за спиной наблюдателя (ось Z - из бесконечности)
+            _cameraTeta = .0; _cameraFi = .0;
+            _cameraCosTeta = Math.Cos(_cameraTeta);
+            _cameraSinTeta = Math.Sin(_cameraTeta);
+            _cameraSinFi = Math.Sin(_cameraFi);
+            _cameraCosFi = Math.Cos(_cameraFi);
+        }
+        /// &lt;summary&gt;
+        /// Устанавливает преобразование от координат наблюдения к координатам отсечения
+        /// &lt;/summary&gt;
+        void InitProjection()
+        {
+            // Определение текущей ширины и высоты порта наблюдения
+            float
+                vpWidth = gl.Get(gl.VIEWPORT, 4)[2],
+                vpHeight = gl.Get(gl.VIEWPORT, 4)[3];
+            // Обнуляется флаг создания дисплейного списка поля
+            _isFListCreated = _isPListCreated = false;
+            // Устанавливается режим ввода матрицы в стек преобразования 
+            // от координат наблюдения к координатам отсечения 
+            gl.MatrixMode(gl.PROJECTION);
+            // Ввод единичной матрицы
+            gl.LoadIdentity();
+            // Ввод матрицы ортогональной проекции с учетом пропорций порта наблюдения
+            gl.Ortho(-1, 1, -1, 1, -1, 1);
+            // Устанавливается режим ввода матрицы в стек преобразования 
+            // от объектных координат  к координатам наблюдения 
+            gl.MatrixMode(gl.MODELVIEW);
+            gl.LoadIdentity();
+        }
+        /// &lt;summary&gt;
+        /// Устанавливает воспроизводимую сцену с помощью команд OpenGL
+        /// &lt;/summary&gt;
+        void BuildFrame()
+        {
+            // Очистка буфера цвета и буфера глубины
+            gl.Clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+            // Ввод единичной матрицы
+            gl.LoadIdentity();
+
+            // Установка "камеры наблюдения" - ввод специальной матрицы
+            gl.LookAt(
+                //Текущие координаты наблюдателя на сфере с центром в начале координат
+                _radiusEye * _cameraCosTeta * _cameraSinFi,
+                _radiusEye * _cameraSinTeta,
+                _radiusEye * _cameraCosTeta * _cameraCosFi,
+                //Неподвижная точка наблюдения
+                0, 0, 0,
+                //Направление вверх, нормальное к линии, соединяющей наблюдателя и
+                // неподвижную точку (центр сферы)
+                -_cameraSinTeta * _cameraSinFi,
+                _cameraCosTeta, -_cameraSinTeta * _cameraCosFi);
+
+            RenderScene();
+            gl.Finish();
+        }
+        /// &lt;summary&gt;
+        /// Устанавливает воспроизводимую сцену и копирует буферы 
+        /// &lt;/summary&gt;
+        void RenderFrame()
+        {
+            //bool timerEnabled = timer1.Enabled;
+            //timer1.Enabled = false;
+            BuildFrame();
+            if (!_port.SwapBuffers())
+                throw new Exception("Не выполнен обмен буферов.");
+            gl.Flush();
+            //timer1.Enabled = timerEnabled;
+        }
+        #endregion
+        #region Display Lists Creators
+        /// &lt;summary&gt;
+        /// Определяет тип методов, создающих дисплейные списки объектов
+        /// &lt;/summary&gt;
+        delegate void CreateList();
+        /// &lt;summary&gt;
+        /// Создает список дисплейных команд, одновременно вызывая его, либо вызывает уже готовый список
+        /// &lt;/summary&gt;
+        /// &lt;param name="isCreatedList"&gt;
+        /// Создан ли список
+        /// &lt;/param&gt;
+        /// &lt;param name="listNmb"&gt;
+        /// Номер списка
+        /// &lt;/param&gt;
+        /// &lt;param name="createList"&gt;
+        /// Метод создания списка
+        /// &lt;/param&gt;
+        void CreateNCallList(bool isCreatedList, uint listNmb, CreateList createList)
+        {
+            if (!isCreatedList)
+                createList();
+            else
+                gl.CallList(listNmb);
+        }
+        /// &lt;summary&gt;
+        /// Создает дисплейный список поля
+        /// &lt;/summary&gt;
+        void CreateFieldList()
+        {
+            float
+                x, y, nextX, nextY,
+                dx = 2.0f / _fStacks, dy = -2.0f / _fSlices, curU, nextU, dxU, dyU;
+            if (gl.IsList(_fList))
+                gl.DeleteLists(_fList, 1);
+            _fList = gl.GenLists(1);
+            gl.NewList(_fList, gl.COMPILE_AND_EXECUTE);
+            gl.PushAttrib(gl.LIGHTING_BIT);
+            gl.Material(gl.FRONT_AND_BACK, gl.DIFFUSE, _fDiffuseReflectanceColor);
+            Vector2D curPos = new Vector2D();
+            for (int slice = 0; slice &lt; _fSlices; slice++)
+            {
+                y = (float)slice / _fSlices;
+                // для каждого значения y (по высоте окна сверху вниз)
+                curPos.Y = _window.Top + _window.Height * y;
+                nextY = (float)curPos.Y + _window.Height / _fSlices;
+                gl.Begin(gl.TRIANGLE_STRIP);
+                for (int stack = 0; stack &lt;= _fStacks; stack++)
+                {
+                    x = (float)stack / _fStacks;
+                    curPos.X = _window.Left + _window.Width * x;
+                    nextX = (float)curPos.X + _window.Width / _fStacks;
+                    curU = (float)PotentialEnergy(curPos, _time) / _3DeMax;
+                    nextU = (float)PotentialEnergy(new Vector2D(curPos.X, nextY), _time) / _3DeMax;
+                    dxU = (float)PotentialEnergy(new Vector2D(nextX, curPos.Y), _time) / _3DeMax - curU;
+                    dyU = nextU - curU;
+                    // Из этой вершины выходят два вектора (0,dy,dyU) и (dx,0,dxU), которые образуют катеты
+                    // прямоугольного треугольника. Их векторное произведение дает нормаль с компонентами
+                    // (dy*dxU, dyU*dx, -dx*dy).
+                    gl.Normal(dy * dxU, dx * dyU, -dx * dy);
+                    gl.Vertex(2 * x - 1, 1 - 2 * y, curU);
+                    gl.Vertex(2 * x - 1, 1 - 2 * y + dy, nextU);
+                }
+                gl.End();
+            }
+            gl.PopAttrib();
+            gl.EndList();
+            _isFListCreated = true;
+        }
+        /// &lt;summary&gt;
+        /// Создает дисплейный список частицы
+        /// &lt;/summary&gt;
+        void CreatePList()
+        {
+            if (gl.IsList(_pList))
+                gl.DeleteLists(_pList, 1);
+            _pList = gl.GenLists(1);
+            gl.NewList(_pList, gl.COMPILE_AND_EXECUTE);
+            gl.PushAttrib(gl.LIGHTING_BIT);
+            gl.Material(gl.FRONT, gl.DIFFUSE, _pDiffuseReflectanceColor);
+            Sphere(_3DpRadius);
+            gl.PopAttrib();
+            gl.EndList();
+            _isPListCreated = true;
+        }
+        /// &lt;summary&gt;
+        /// Создает список команд, изображающих плоскость постоянной энергии
+        /// &lt;/summary&gt;
+        void CreateEnrgList()
+        {
+            if (gl.IsList(_eList))
+                gl.DeleteLists(_eList, 1);
+            _eList = gl.GenLists(1);
+            gl.NewList(_eList, gl.COMPILE_AND_EXECUTE);
+            gl.PushAttrib(gl.LIGHTING_BIT | gl.ENABLE_BIT);
+            gl.Disable(gl.CULL_FACE);
+            gl.Material(gl.FRONT_AND_BACK, gl.DIFFUSE, _enrgDiffuseReflectanceColor);
+            gl.Begin(gl.QUADS);
+#if defState
+            float e = (float)Energy(_pState) / _3DeMax;
+#else
+            float e = (float)Energy(_V, _Pos, _time) / _3DeMax;
+#endif
+            gl.Vertex(-1, -1, e);
+            gl.Vertex(1, -1, e);
+            gl.Vertex(1, 1, e);
+            gl.Vertex(-1, 1, e);
+            gl.End();
+            gl.PopAttrib();
+            gl.EndList();
+            _isEListCreated = true;
+        }
+        /// &lt;summary&gt;
+        /// Draw sphere
+        /// &lt;/summary&gt;
+        /// &lt;param name="radius"&gt;
+        /// Sphere radius
+        /// &lt;/param&gt;
+        void Sphere(float radius)
+        {
+            if (radius &gt; 0.0)
+            {
+                // Gray color of surface
+                //gl.Color (0.8, 0.8, 0.8);
+#if unsafeGL
+            unsafe
+            {
+                glu.Sphere (_sphereQuadric, radius, _slices, _stacks);
+            }
+#else
+                // Covering surface by triangles 
+                // North pole
+                gl.Begin(gl.TRIANGLE_FAN);
+                gl.Normal(0, radius, 0);
+                gl.Vertex(0, radius, 0);
+                for (int slice = 0; slice &lt;= _pointSlices; slice++)
+                {
+                    gl.Normal(radius * sinteta[1] * sinfi[slice],
+                        radius * costeta[1],
+                        radius * sinteta[1] * cosfi[slice]);
+                    gl.Vertex(radius * sinteta[1] * sinfi[slice],
+                        radius * costeta[1],
+                        radius * sinteta[1] * cosfi[slice]);
+                }
+                gl.End();
+
+                // middle of sphere
+                for (int stack = 1; stack &lt; _pointStacks - 1; stack++)
+                {
+                    gl.Begin(gl.TRIANGLE_STRIP);
+                    for (int slice = 0; slice &lt;= _pointSlices; slice++)
+                    {
+                        gl.Normal(radius * sinteta[stack] * sinfi[slice],
+                            radius * costeta[stack],
+                            radius * sinteta[stack] * cosfi[slice]);
+                        gl.Vertex(radius * sinteta[stack] * sinfi[slice],
+                            radius * costeta[stack],
+                            radius * sinteta[stack] * cosfi[slice]);
+                        gl.Normal(radius * sinteta[stack + 1] * sinfi[slice],
+                            radius * costeta[stack + 1],
+                            radius * sinteta[stack + 1] * cosfi[slice]);
+                        gl.Vertex(radius * sinteta[stack + 1] * sinfi[slice],
+                            radius * costeta[stack + 1],
+                            radius * sinteta[stack + 1] * cosfi[slice]);
+                    }
+                    gl.End();
+                }
+
+                // South pole
+                gl.Begin(gl.TRIANGLE_FAN);
+                gl.Normal(0, -radius, 0);
+                gl.Vertex(0, -radius, 0);
+                for (int slice = _pointSlices; slice &gt;= 0; slice--)
+                {
+                    gl.Normal(radius * sinteta[_pointStacks - 1] * sinfi[slice],
+                        radius * costeta[_pointStacks - 1],
+                        radius * sinteta[_pointStacks - 1] * cosfi[slice]);
+                    gl.Vertex(radius * sinteta[_pointStacks - 1] * sinfi[slice],
+                        radius * costeta[_pointStacks - 1],
+                        radius * sinteta[_pointStacks - 1] * cosfi[slice]);
+                }
+                gl.End();
+#endif
+            }
+        }
+        #endregion
+        /// &lt;summary&gt;
+        /// Создает объекты изображения
+        /// &lt;/summary&gt;
+        void RenderScene()
+        {
+            gl.PushAttrib(gl.POLYGON_BIT);
+            gl.PolygonMode(gl.FRONT, _isLineView ? gl.LINE : gl.FILL);
+            CreateNCallList(_isFListCreated, _fList, CreateFieldList);
+            gl.PopAttrib();
+        #region Particle Rendering
+            gl.PushMatrix();
+#if defState
+            gl.Translate(
+                2 * (_pPos.X - _window.Left) / _window.Width - 1,
+                1 - 2 * (_pPos.Y - _window.Top) / _window.Height,
+                (float)(Energy(_pState) / _3DeMax));
+#else
+            gl.Translate(
+                2 * ((float)_Pos.X - _window.Left) / _window.Width - 1,
+                1 - 2 * ((float)_Pos.Y - _window.Top) / _window.Height,
+                (float)(Energy(_V, _Pos, _time) / _3DeMax));
+#endif
+            CreateNCallList(_isPListCreated, _pList, CreatePList);
+            gl.PopMatrix();
+        #endregion
+            if (_nu == 0)
+                CreateNCallList(_isEListCreated, _eList, CreateEnrgList);
+        }
+        #endregion
+#endif
+    }
+}
+</value>
+  </data>
+</root>

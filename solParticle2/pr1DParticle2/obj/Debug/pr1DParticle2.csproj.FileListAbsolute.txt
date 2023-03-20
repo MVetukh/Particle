@@ -1,0 +1,33 @@
+D:\Microsoft Visual Studio\Visual Studio\Projects\solParticle2\pr1DParticle2\bin\Debug\pr1DParticle2.exe.config
+D:\Microsoft Visual Studio\Visual Studio\Projects\solParticle2\pr1DParticle2\bin\Debug\pr1DParticle2.exe
+D:\Microsoft Visual Studio\Visual Studio\Projects\solParticle2\pr1DParticle2\bin\Debug\pr1DParticle2.pdb
+D:\Microsoft Visual Studio\Visual Studio\Projects\solParticle2\pr1DParticle2\obj\Debug\pr1DParticle2.csproj.AssemblyReference.cache
+D:\Microsoft Visual Studio\Visual Studio\Projects\solParticle2\pr1DParticle2\obj\Debug\pr1DParticle2.csproj.SuggestedBindingRedirects.cache
+D:\Microsoft Visual Studio\Visual Studio\Projects\solParticle2\pr1DParticle2\obj\Debug\pr1DParticle2.f1DParticle2.resources
+D:\Microsoft Visual Studio\Visual Studio\Projects\solParticle2\pr1DParticle2\obj\Debug\pr1DParticle2.Properties.Resources.resources
+D:\Microsoft Visual Studio\Visual Studio\Projects\solParticle2\pr1DParticle2\obj\Debug\pr1DParticle2.csproj.GenerateResource.cache
+D:\Microsoft Visual Studio\Visual Studio\Projects\solParticle2\pr1DParticle2\obj\Debug\pr1DParticle2.csproj.CoreCompileInputs.cache
+D:\Microsoft Visual Studio\Visual Studio\Projects\solParticle2\pr1DParticle2\obj\Debug\pr1DParticle2.exe
+D:\Microsoft Visual Studio\Visual Studio\Projects\solParticle2\pr1DParticle2\obj\Debug\pr1DParticle2.pdb
+C:\Users\vetukh\OneDrive - Южный Федеральный Университет\Рабочий стол\solParticle2@\pr1DParticle2\bin\Debug\pr1DParticle2.exe.config
+C:\Users\vetukh\OneDrive - Южный Федеральный Университет\Рабочий стол\solParticle2@\pr1DParticle2\bin\Debug\pr1DParticle2.exe
+C:\Users\vetukh\OneDrive - Южный Федеральный Университет\Рабочий стол\solParticle2@\pr1DParticle2\bin\Debug\pr1DParticle2.pdb
+C:\Users\vetukh\OneDrive - Южный Федеральный Университет\Рабочий стол\solParticle2@\pr1DParticle2\obj\Debug\pr1DParticle2.csproj.AssemblyReference.cache
+C:\Users\vetukh\OneDrive - Южный Федеральный Университет\Рабочий стол\solParticle2@\pr1DParticle2\obj\Debug\pr1DParticle2.csproj.SuggestedBindingRedirects.cache
+C:\Users\vetukh\OneDrive - Южный Федеральный Университет\Рабочий стол\solParticle2@\pr1DParticle2\obj\Debug\pr1DParticle2.f1DParticle2.resources
+C:\Users\vetukh\OneDrive - Южный Федеральный Университет\Рабочий стол\solParticle2@\pr1DParticle2\obj\Debug\pr1DParticle2.Properties.Resources.resources
+C:\Users\vetukh\OneDrive - Южный Федеральный Университет\Рабочий стол\solParticle2@\pr1DParticle2\obj\Debug\pr1DParticle2.csproj.GenerateResource.cache
+C:\Users\vetukh\OneDrive - Южный Федеральный Университет\Рабочий стол\solParticle2@\pr1DParticle2\obj\Debug\pr1DParticle2.csproj.CoreCompileInputs.cache
+C:\Users\vetukh\OneDrive - Южный Федеральный Университет\Рабочий стол\solParticle2@\pr1DParticle2\obj\Debug\pr1DParticle2.exe
+C:\Users\vetukh\OneDrive - Южный Федеральный Университет\Рабочий стол\solParticle2@\pr1DParticle2\obj\Debug\pr1DParticle2.pdb
+D:\Microsoft Visual Studio\Visual Studio\Projects\solParticle2@\pr1DParticle2\obj\Debug\pr1DParticle2.csproj.AssemblyReference.cache
+D:\Microsoft Visual Studio\Visual Studio\Projects\solParticle2@\pr1DParticle2\obj\Debug\pr1DParticle2.csproj.SuggestedBindingRedirects.cache
+D:\Microsoft Visual Studio\Visual Studio\Projects\solParticle2@\pr1DParticle2\obj\Debug\pr1DParticle2.exe
+D:\Microsoft Visual Studio\Visual Studio\Projects\solParticle2@\pr1DParticle2\obj\Debug\pr1DParticle2.pdb
+D:\Microsoft Visual Studio\Visual Studio\Projects\solParticle2@\pr1DParticle2\bin\Debug\pr1DParticle2.exe.config
+D:\Microsoft Visual Studio\Visual Studio\Projects\solParticle2@\pr1DParticle2\bin\Debug\pr1DParticle2.exe
+D:\Microsoft Visual Studio\Visual Studio\Projects\solParticle2@\pr1DParticle2\bin\Debug\pr1DParticle2.pdb
+D:\Microsoft Visual Studio\Visual Studio\Projects\solParticle2@\pr1DParticle2\obj\Debug\pr1DParticle2.f1DParticle2.resources
+D:\Microsoft Visual Studio\Visual Studio\Projects\solParticle2@\pr1DParticle2\obj\Debug\pr1DParticle2.Properties.Resources.resources
+D:\Microsoft Visual Studio\Visual Studio\Projects\solParticle2@\pr1DParticle2\obj\Debug\pr1DParticle2.csproj.GenerateResource.cache
+D:\Microsoft Visual Studio\Visual Studio\Projects\solParticle2@\pr1DParticle2\obj\Debug\pr1DParticle2.csproj.CoreCompileInputs.cache
